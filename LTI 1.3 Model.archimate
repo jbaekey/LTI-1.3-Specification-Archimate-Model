@@ -1,0 +1,2213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="LTI 1.3 Model" id="fae0eed9-54d2-4cb3-af9f-2ebbe8d5a602" version="4.6.0">
+  <folder name="Strategy" id="0d1869e3-63a3-4004-9691-bf887122288b" type="strategy"/>
+  <folder name="Business" id="10a4ee9f-bea6-4b8f-9554-4622f06928d9" type="business">
+    <element xsi:type="archimate:BusinessRole" name="Core Institution Roles" id="8b36e5f5-94d5-4ab8-a498-30f3c1da28a1">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Faculty&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Guest&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#None&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Other&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Staff&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Student</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Non-core Context Roles" id="26653921-4d10-4a93-9607-2025cdf04ebb">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Core Context Roles" id="b363687d-61f0-4c99-8788-6d29a29b5e37">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Core System Roles" id="fcc22f62-c06f-4476-a894-bae18a03e88d">
+      <documentation>A.2.1 LIS vocabularary for system roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#None</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Non-core System Roles" id="a128ee0b-3241-4e82-b4fc-4727399cc0f7">
+      <documentation>A.2.1 LIS vocabularary for system roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#AccountAdmin&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#Creator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#SysAdmin&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#SysSupport&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#User</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Administrator" id="2d072cf6-101b-4a0c-aef8-5f0b53919445">
+      <documentation>A.2.1 LIS vocabularary for system roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#None</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="None" id="47e41dc0-492d-4a57-a82d-3fbf1e7af2c9">
+      <documentation>A.2.1 LIS vocabularary for system roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#None</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="AcountAdmin" id="357a6df8-5cfd-4b09-b4ea-1070214d3aa6">
+      <documentation>A.2.1 LIS vocabularary for system roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#AccountAdmin&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#Creator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#SysAdmin&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#SysSupport&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#User</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Creator" id="c17329d8-2bbf-4f52-9bbf-cdc8cad6bf90">
+      <documentation>A.2.1 LIS vocabularary for system roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#AccountAdmin&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#Creator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#SysAdmin&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#SysSupport&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#User</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="SysSupport" id="ee26afda-d964-4672-849d-a9e70a01f6e2">
+      <documentation>A.2.1 LIS vocabularary for system roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#AccountAdmin&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#Creator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#SysAdmin&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#SysSupport&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#User</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="User" id="b83f21d1-e783-4b04-8908-beb9399216f4">
+      <documentation>A.2.1 LIS vocabularary for system roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#AccountAdmin&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#Creator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#SysAdmin&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#SysSupport&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#User</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="SysAdmin" id="63f6707d-9cd7-4469-bfa4-be86435ab3c6">
+      <documentation>A.2.1 LIS vocabularary for system roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#AccountAdmin&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#Creator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#SysAdmin&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#SysSupport&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/system/person#User</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Administrator" id="7ba5c269-c857-45d8-b98a-072f9d1b2043">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Faculty&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Guest&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#None&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Other&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Staff&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Student</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Faculty" id="c34e13e1-eac1-4fa7-8fa6-ab75c7288740">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Faculty&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Guest&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#None&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Other&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Staff&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Student</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Guest" id="4354c8e3-2760-4c0e-aa7e-384170ee9f8e">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Faculty&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Guest&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#None&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Other&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Staff&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Student</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="None" id="8c61ef59-3438-4433-9089-0caf0139d35e">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Faculty&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Guest&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#None&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Other&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Staff&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Student</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Other" id="06306f93-6531-477b-b0f9-317e71bd6064">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Faculty&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Guest&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#None&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Other&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Staff&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Student</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Staff" id="0d1a3ce7-84a5-450b-8e22-78547853e4ec">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Faculty&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Guest&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#None&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Other&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Staff&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Student</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Student" id="e2455d66-cac5-4d14-9939-9a3a61e8f9ae">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Faculty&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Guest&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#None&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Other&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Staff&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Student</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Administrator" id="7bd28cfd-bb7d-4ecb-bf83-b0cce6a564d2">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Administrator&#xD;
+Developer&#xD;
+ExternalDeveloper&#xD;
+ExternalSupport&#xD;
+ExternalSystemAdministrator&#xD;
+Support&#xD;
+SystemAdministrator</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ContentDeveloper" id="4af65f7d-be6b-4288-a79d-8d52e7dd25ac">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ContentDeveloper&#xD;
+ContentExpert&#xD;
+ExternalContentExpert&#xD;
+Librarian</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Instructor" id="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalInstructor&#xD;
+Grader&#xD;
+GuestInstructor&#xD;
+Lecturer&#xD;
+PrimaryInstructor&#xD;
+SecondaryInstructor&#xD;
+TeachingAssistant&#xD;
+TeachingAssistantGroup&#xD;
+TeachingAssistantOffering&#xD;
+TeachingAssistantSection&#xD;
+TeachingAssistantSectionAssociation&#xD;
+TeachingAssistantTemplate</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Learner" id="e7a41723-5f91-40e6-8a5d-2de55dc0ea39">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalLearner&#xD;
+GuestLearner&#xD;
+Instructor&#xD;
+Learner&#xD;
+NonCreditLearner</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Mentor" id="3837f02f-7193-416b-98f0-8c068d90e113">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Advisor&#xD;
+Auditor&#xD;
+ExternalAdvisor&#xD;
+ExternalAuditor&#xD;
+ExternalLearningFacilitator&#xD;
+ExternalMentor&#xD;
+ExternalReviewer&#xD;
+ExternalTutor&#xD;
+LearningFacilitator&#xD;
+Mentor&#xD;
+Reviewer&#xD;
+Tutor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Member" id="489cf90b-2d56-4b47-b737-63904224f38f">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Member</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Manager" id="a6efeb28-1bde-4203-9436-40e5df1d31d4">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+AreaManager&#xD;
+CourseCoordinator&#xD;
+ExternalObserver&#xD;
+Manager&#xD;
+Observer</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Officer" id="2d826e62-34a9-404a-a57c-353f287b1877">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Chair&#xD;
+Communications&#xD;
+Secretary&#xD;
+Treasurer&#xD;
+Vice-Chair</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Principal Context Role" id="d41591b2-1529-4a53-803b-b295379b8e98">
+      <documentation>A.2.3.1 Context sub-roles</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Sub-role" id="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:BusinessRole" name="SystemAdministrator" id="07f2274d-ff30-4057-80da-ecb2b3a3a7d3">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Administrator&#xD;
+Developer&#xD;
+ExternalDeveloper&#xD;
+ExternalSupport&#xD;
+ExternalSystemAdministrator&#xD;
+Support&#xD;
+SystemAdministrator</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Support" id="8feb355d-d9d3-4fee-ab60-bd925d7b095b">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Administrator&#xD;
+Developer&#xD;
+ExternalDeveloper&#xD;
+ExternalSupport&#xD;
+ExternalSystemAdministrator&#xD;
+Support&#xD;
+SystemAdministrator</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ExternalSystemAdministrator" id="2e315477-d282-425c-ada4-0bc207269afe">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Administrator&#xD;
+Developer&#xD;
+ExternalDeveloper&#xD;
+ExternalSupport&#xD;
+ExternalSystemAdministrator&#xD;
+Support&#xD;
+SystemAdministrator</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ExternalSupport" id="3ce7efaa-7457-4179-a938-8312f18a5acf">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Administrator&#xD;
+Developer&#xD;
+ExternalDeveloper&#xD;
+ExternalSupport&#xD;
+ExternalSystemAdministrator&#xD;
+Support&#xD;
+SystemAdministrator</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ExternalDeveloper" id="ca8a952a-1a8f-42de-a1f3-679fb65ebf37">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Administrator&#xD;
+Developer&#xD;
+ExternalDeveloper&#xD;
+ExternalSupport&#xD;
+ExternalSystemAdministrator&#xD;
+Support&#xD;
+SystemAdministrator</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Developer" id="1caeb37a-8aa5-4554-bebc-4e4b0c0a7ed7">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Administrator&#xD;
+Developer&#xD;
+ExternalDeveloper&#xD;
+ExternalSupport&#xD;
+ExternalSystemAdministrator&#xD;
+Support&#xD;
+SystemAdministrator</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Administrator" id="8df16f41-def3-40af-95e0-6f31a55aba40">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Administrator&#xD;
+Developer&#xD;
+ExternalDeveloper&#xD;
+ExternalSupport&#xD;
+ExternalSystemAdministrator&#xD;
+Support&#xD;
+SystemAdministrator</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="NonCreditLearner" id="66516bac-0725-4e1f-898b-c9b612e95894">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalLearner&#xD;
+GuestLearner&#xD;
+Instructor&#xD;
+Learner&#xD;
+NonCreditLearner</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Learner" id="5b77d8fb-570d-419a-98dd-69246e08b2c3">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalLearner&#xD;
+GuestLearner&#xD;
+Instructor&#xD;
+Learner&#xD;
+NonCreditLearner</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Instructor" id="5170ac6b-16cc-44e1-804a-4b296258e9bf">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalLearner&#xD;
+GuestLearner&#xD;
+Instructor&#xD;
+Learner&#xD;
+NonCreditLearner</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="GuestLearner" id="ae9c0f61-11b6-4842-a689-07ade00f236a">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalLearner&#xD;
+GuestLearner&#xD;
+Instructor&#xD;
+Learner&#xD;
+NonCreditLearner</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ExternalLearner" id="065abbb0-f6cc-40d9-b764-02bae4a3d255">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalLearner&#xD;
+GuestLearner&#xD;
+Instructor&#xD;
+Learner&#xD;
+NonCreditLearner</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ContentDeveloper" id="663689f9-f6b1-461e-a3cc-8322a675bbbe">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ContentDeveloper&#xD;
+ContentExpert&#xD;
+ExternalContentExpert&#xD;
+Librarian</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Librarian" id="82eb7ac1-30e7-4b55-8a04-247f5ad1954a">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ContentDeveloper&#xD;
+ContentExpert&#xD;
+ExternalContentExpert&#xD;
+Librarian</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ExternalContentExpert" id="757e172b-379e-4e75-8c72-e087cf1471fb">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ContentDeveloper&#xD;
+ContentExpert&#xD;
+ExternalContentExpert&#xD;
+Librarian</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ContentExpert" id="6f4fdf01-16f8-42b8-8cc4-1c2626299fce">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ContentDeveloper&#xD;
+ContentExpert&#xD;
+ExternalContentExpert&#xD;
+Librarian</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Advisor" id="2c16cb55-457c-4b32-82e9-2bc9cf89598d">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Advisor&#xD;
+Auditor&#xD;
+ExternalAdvisor&#xD;
+ExternalAuditor&#xD;
+ExternalLearningFacilitator&#xD;
+ExternalMentor&#xD;
+ExternalReviewer&#xD;
+ExternalTutor&#xD;
+LearningFacilitator&#xD;
+Mentor&#xD;
+Reviewer&#xD;
+Tutor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Auditor" id="1c604e7f-731f-4f82-8334-00afa0d1ba43">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Advisor&#xD;
+Auditor&#xD;
+ExternalAdvisor&#xD;
+ExternalAuditor&#xD;
+ExternalLearningFacilitator&#xD;
+ExternalMentor&#xD;
+ExternalReviewer&#xD;
+ExternalTutor&#xD;
+LearningFacilitator&#xD;
+Mentor&#xD;
+Reviewer&#xD;
+Tutor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ExternalAdvisor" id="2233a7a7-73d6-4e06-805f-a578f495c3ef">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Advisor&#xD;
+Auditor&#xD;
+ExternalAdvisor&#xD;
+ExternalAuditor&#xD;
+ExternalLearningFacilitator&#xD;
+ExternalMentor&#xD;
+ExternalReviewer&#xD;
+ExternalTutor&#xD;
+LearningFacilitator&#xD;
+Mentor&#xD;
+Reviewer&#xD;
+Tutor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ExternalAuditor" id="9111ebc2-7b98-49c1-a5a3-fa7a0ff8416c">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Advisor&#xD;
+Auditor&#xD;
+ExternalAdvisor&#xD;
+ExternalAuditor&#xD;
+ExternalLearningFacilitator&#xD;
+ExternalMentor&#xD;
+ExternalReviewer&#xD;
+ExternalTutor&#xD;
+LearningFacilitator&#xD;
+Mentor&#xD;
+Reviewer&#xD;
+Tutor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ExternalLearningFacilitator" id="8f78e398-576b-434b-abee-8b883a835d2d">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Advisor&#xD;
+Auditor&#xD;
+ExternalAdvisor&#xD;
+ExternalAuditor&#xD;
+ExternalLearningFacilitator&#xD;
+ExternalMentor&#xD;
+ExternalReviewer&#xD;
+ExternalTutor&#xD;
+LearningFacilitator&#xD;
+Mentor&#xD;
+Reviewer&#xD;
+Tutor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ExternalTutor" id="155da350-6358-43ac-8a28-d8c036b434e2">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Advisor&#xD;
+Auditor&#xD;
+ExternalAdvisor&#xD;
+ExternalAuditor&#xD;
+ExternalLearningFacilitator&#xD;
+ExternalMentor&#xD;
+ExternalReviewer&#xD;
+ExternalTutor&#xD;
+LearningFacilitator&#xD;
+Mentor&#xD;
+Reviewer&#xD;
+Tutor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ExternalReviewer" id="5f90781d-5f15-4e71-a8d3-2bc69a2f5a33">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Advisor&#xD;
+Auditor&#xD;
+ExternalAdvisor&#xD;
+ExternalAuditor&#xD;
+ExternalLearningFacilitator&#xD;
+ExternalMentor&#xD;
+ExternalReviewer&#xD;
+ExternalTutor&#xD;
+LearningFacilitator&#xD;
+Mentor&#xD;
+Reviewer&#xD;
+Tutor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ExternalMentor" id="268181ee-64b9-44b0-96dc-b102dc0b1f78">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Advisor&#xD;
+Auditor&#xD;
+ExternalAdvisor&#xD;
+ExternalAuditor&#xD;
+ExternalLearningFacilitator&#xD;
+ExternalMentor&#xD;
+ExternalReviewer&#xD;
+ExternalTutor&#xD;
+LearningFacilitator&#xD;
+Mentor&#xD;
+Reviewer&#xD;
+Tutor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Tutor" id="32fb1eef-5619-4b71-a505-bb508cb06b89">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Advisor&#xD;
+Auditor&#xD;
+ExternalAdvisor&#xD;
+ExternalAuditor&#xD;
+ExternalLearningFacilitator&#xD;
+ExternalMentor&#xD;
+ExternalReviewer&#xD;
+ExternalTutor&#xD;
+LearningFacilitator&#xD;
+Mentor&#xD;
+Reviewer&#xD;
+Tutor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Mentor" id="e10452fd-2fc7-49f0-9820-19abe567985b">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Advisor&#xD;
+Auditor&#xD;
+ExternalAdvisor&#xD;
+ExternalAuditor&#xD;
+ExternalLearningFacilitator&#xD;
+ExternalMentor&#xD;
+ExternalReviewer&#xD;
+ExternalTutor&#xD;
+LearningFacilitator&#xD;
+Mentor&#xD;
+Reviewer&#xD;
+Tutor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Reviewer" id="dec3ea2c-71f4-4cb7-83e1-16b087f8a3b7">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Advisor&#xD;
+Auditor&#xD;
+ExternalAdvisor&#xD;
+ExternalAuditor&#xD;
+ExternalLearningFacilitator&#xD;
+ExternalMentor&#xD;
+ExternalReviewer&#xD;
+ExternalTutor&#xD;
+LearningFacilitator&#xD;
+Mentor&#xD;
+Reviewer&#xD;
+Tutor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="LearningFacilitator" id="326069ce-5d99-487e-a3c7-9639cd72c8a0">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Advisor&#xD;
+Auditor&#xD;
+ExternalAdvisor&#xD;
+ExternalAuditor&#xD;
+ExternalLearningFacilitator&#xD;
+ExternalMentor&#xD;
+ExternalReviewer&#xD;
+ExternalTutor&#xD;
+LearningFacilitator&#xD;
+Mentor&#xD;
+Reviewer&#xD;
+Tutor</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ExternalInstructor" id="2f353c44-f8d1-40c3-b121-3f17881f43bf">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalInstructor&#xD;
+Grader&#xD;
+GuestInstructor&#xD;
+Lecturer&#xD;
+PrimaryInstructor&#xD;
+SecondaryInstructor&#xD;
+TeachingAssistant&#xD;
+TeachingAssistantGroup&#xD;
+TeachingAssistantOffering&#xD;
+TeachingAssistantSection&#xD;
+TeachingAssistantSectionAssociation&#xD;
+TeachingAssistantTemplate</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Grader" id="8c5ee72a-cdd2-4ebd-a507-afb8d50aab22">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalInstructor&#xD;
+Grader&#xD;
+GuestInstructor&#xD;
+Lecturer&#xD;
+PrimaryInstructor&#xD;
+SecondaryInstructor&#xD;
+TeachingAssistant&#xD;
+TeachingAssistantGroup&#xD;
+TeachingAssistantOffering&#xD;
+TeachingAssistantSection&#xD;
+TeachingAssistantSectionAssociation&#xD;
+TeachingAssistantTemplate</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="GuestInstructor" id="e31663a3-6849-48ad-9388-09cc07a506b6">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalInstructor&#xD;
+Grader&#xD;
+GuestInstructor&#xD;
+Lecturer&#xD;
+PrimaryInstructor&#xD;
+SecondaryInstructor&#xD;
+TeachingAssistant&#xD;
+TeachingAssistantGroup&#xD;
+TeachingAssistantOffering&#xD;
+TeachingAssistantSection&#xD;
+TeachingAssistantSectionAssociation&#xD;
+TeachingAssistantTemplate</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Lecturer" id="64dd186e-4151-48df-9439-2cfb135df8b5">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalInstructor&#xD;
+Grader&#xD;
+GuestInstructor&#xD;
+Lecturer&#xD;
+PrimaryInstructor&#xD;
+SecondaryInstructor&#xD;
+TeachingAssistant&#xD;
+TeachingAssistantGroup&#xD;
+TeachingAssistantOffering&#xD;
+TeachingAssistantSection&#xD;
+TeachingAssistantSectionAssociation&#xD;
+TeachingAssistantTemplate</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="PrimaryInstructor" id="5664370d-b221-490c-9b48-579f463c4af5">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalInstructor&#xD;
+Grader&#xD;
+GuestInstructor&#xD;
+Lecturer&#xD;
+PrimaryInstructor&#xD;
+SecondaryInstructor&#xD;
+TeachingAssistant&#xD;
+TeachingAssistantGroup&#xD;
+TeachingAssistantOffering&#xD;
+TeachingAssistantSection&#xD;
+TeachingAssistantSectionAssociation&#xD;
+TeachingAssistantTemplate</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="SecondaryInstructtor" id="71efb133-4547-4bff-960a-e89cd4b0161d">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalInstructor&#xD;
+Grader&#xD;
+GuestInstructor&#xD;
+Lecturer&#xD;
+PrimaryInstructor&#xD;
+SecondaryInstructor&#xD;
+TeachingAssistant&#xD;
+TeachingAssistantGroup&#xD;
+TeachingAssistantOffering&#xD;
+TeachingAssistantSection&#xD;
+TeachingAssistantSectionAssociation&#xD;
+TeachingAssistantTemplate</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="TeachingAssistant" id="c53d7e70-d4f1-489c-965d-9311a398a373">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalInstructor&#xD;
+Grader&#xD;
+GuestInstructor&#xD;
+Lecturer&#xD;
+PrimaryInstructor&#xD;
+SecondaryInstructor&#xD;
+TeachingAssistant&#xD;
+TeachingAssistantGroup&#xD;
+TeachingAssistantOffering&#xD;
+TeachingAssistantSection&#xD;
+TeachingAssistantSectionAssociation&#xD;
+TeachingAssistantTemplate</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="TeachingAssistantGroup" id="8dcf8e33-26fb-46f6-8253-2a6ad47aca2f">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalInstructor&#xD;
+Grader&#xD;
+GuestInstructor&#xD;
+Lecturer&#xD;
+PrimaryInstructor&#xD;
+SecondaryInstructor&#xD;
+TeachingAssistant&#xD;
+TeachingAssistantGroup&#xD;
+TeachingAssistantOffering&#xD;
+TeachingAssistantSection&#xD;
+TeachingAssistantSectionAssociation&#xD;
+TeachingAssistantTemplate</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="TeachingAssistantOffering" id="9c04640b-6eec-4cf4-b52d-ed4a2e4ecca4">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalInstructor&#xD;
+Grader&#xD;
+GuestInstructor&#xD;
+Lecturer&#xD;
+PrimaryInstructor&#xD;
+SecondaryInstructor&#xD;
+TeachingAssistant&#xD;
+TeachingAssistantGroup&#xD;
+TeachingAssistantOffering&#xD;
+TeachingAssistantSection&#xD;
+TeachingAssistantSectionAssociation&#xD;
+TeachingAssistantTemplate</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="TeachingAssistantSection" id="eebab113-f617-4cd3-9f8c-09854aa0c593">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalInstructor&#xD;
+Grader&#xD;
+GuestInstructor&#xD;
+Lecturer&#xD;
+PrimaryInstructor&#xD;
+SecondaryInstructor&#xD;
+TeachingAssistant&#xD;
+TeachingAssistantGroup&#xD;
+TeachingAssistantOffering&#xD;
+TeachingAssistantSection&#xD;
+TeachingAssistantSectionAssociation&#xD;
+TeachingAssistantTemplate</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="TeachingAssistantTemplate" id="25cfdd14-065f-4e06-b9ed-d8c89b40342b">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalInstructor&#xD;
+Grader&#xD;
+GuestInstructor&#xD;
+Lecturer&#xD;
+PrimaryInstructor&#xD;
+SecondaryInstructor&#xD;
+TeachingAssistant&#xD;
+TeachingAssistantGroup&#xD;
+TeachingAssistantOffering&#xD;
+TeachingAssistantSection&#xD;
+TeachingAssistantSectionAssociation&#xD;
+TeachingAssistantTemplate</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="TeachingAssistantSectionAssociation" id="1594c5a4-723e-4cdc-b052-00d47f5283f7">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Administrator&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#ContentDeveloper&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Mentor&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+ExternalInstructor&#xD;
+Grader&#xD;
+GuestInstructor&#xD;
+Lecturer&#xD;
+PrimaryInstructor&#xD;
+SecondaryInstructor&#xD;
+TeachingAssistant&#xD;
+TeachingAssistantGroup&#xD;
+TeachingAssistantOffering&#xD;
+TeachingAssistantSection&#xD;
+TeachingAssistantSectionAssociation&#xD;
+TeachingAssistantTemplate</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Member" id="978d3457-8be7-490e-9a8f-df475a0a77cf">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Member</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="VIce-Chair" id="a8e3a9ae-7fb1-4c53-97f2-a67c276702e8">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Chair&#xD;
+Communications&#xD;
+Secretary&#xD;
+Treasurer&#xD;
+Vice-Chair</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Treasurer" id="f7a7277f-e4d7-44e5-a3a5-4fb0ed27f84f">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Chair&#xD;
+Communications&#xD;
+Secretary&#xD;
+Treasurer&#xD;
+Vice-Chair</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Secretary" id="2fcc65c2-1760-47d1-aae3-95c55a37c9f3">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Chair&#xD;
+Communications&#xD;
+Secretary&#xD;
+Treasurer&#xD;
+Vice-Chair</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Communications" id="20abe8a4-d098-4a60-9db2-908b3b563abe">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Chair&#xD;
+Communications&#xD;
+Secretary&#xD;
+Treasurer&#xD;
+Vice-Chair</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Chair" id="10013bba-8cb2-4f0f-aeeb-bf20aed2cf50">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+Chair&#xD;
+Communications&#xD;
+Secretary&#xD;
+Treasurer&#xD;
+Vice-Chair</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Observer" id="a3f67bbe-6703-4336-855a-9303c0106298">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+AreaManager&#xD;
+CourseCoordinator&#xD;
+ExternalObserver&#xD;
+Manager&#xD;
+Observer</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Manager" id="461ef975-f946-41b4-aa5f-806884e45355">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+AreaManager&#xD;
+CourseCoordinator&#xD;
+ExternalObserver&#xD;
+Manager&#xD;
+Observer</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ExternalObserver" id="f3a258dc-05ee-4c21-a587-c6403162e312">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+AreaManager&#xD;
+CourseCoordinator&#xD;
+ExternalObserver&#xD;
+Manager&#xD;
+Observer</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="CourseCoordinator" id="2a34cc5d-e547-4153-b813-37f9f6439463">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+AreaManager&#xD;
+CourseCoordinator&#xD;
+ExternalObserver&#xD;
+Manager&#xD;
+Observer</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="AreaManager" id="f336f615-68e2-4012-9b77-0af6c51e2d00">
+      <documentation>A.2.3 LIS vocabulary for context roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Manager&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/membership#Officer&#xD;
+&#xD;
+A.2.3.1 Context sub-roles&#xD;
+AreaManager&#xD;
+CourseCoordinator&#xD;
+ExternalObserver&#xD;
+Manager&#xD;
+Observer</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Non-core Institution Roles" id="e115ec24-cd78-485b-b132-110517e23c04">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Alumni&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Mentor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Observer&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#ProspectiveStudent</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="ProspectiveStudent" id="3cbd22af-94b5-4e2a-8278-d86d42979131">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Alumni&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Mentor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Observer&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#ProspectiveStudent</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Observer" id="ca569631-cf03-4bee-9092-07bb1f3c6a25">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Alumni&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Mentor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Observer&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#ProspectiveStudent</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Mentor" id="cba7876b-4ae6-4e1f-9d51-0200339e4135">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Alumni&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Mentor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Observer&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#ProspectiveStudent</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Member" id="e48ad731-b13d-4fe6-b032-5444c933066b">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Alumni&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Mentor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Observer&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#ProspectiveStudent</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Learner" id="2a66ea13-7017-4919-88f4-7a732503a9e9">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Alumni&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Mentor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Observer&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#ProspectiveStudent</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Instructor" id="0600d321-2099-4d88-a658-e8e362d63b34">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Alumni&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Mentor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Observer&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#ProspectiveStudent</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" name="Alumni" id="e83546e3-f22b-41ef-8e5d-1b5fff08a9ba">
+      <documentation>A.2.2 LIS vocabularary for instution roles&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Alumni&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Instructor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Learner&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Member&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Mentor&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#Observer&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/institution/person#ProspectiveStudent</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Course Template" id="82e6d525-517a-4cde-af57-25f23a1edba7">
+      <documentation>A.1 Context type vocabulary&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/course#CourseTemplate&#xD;
+CourseTemplate (deprecated)&#xD;
+urn:lti:context-type:ims/lis/CourseTemplate (deprecated)</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Group" id="75b12469-f548-4c28-b16a-8ebd27d81202">
+      <documentation>A.1 Context type vocabulary&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/course#Group&#xD;
+Group (deprecated)&#xD;
+urn:lti:context-type:ims/lis/Group (deprecated)</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Course Section" id="cbe97ce4-b548-4f86-a390-5669e840eb53">
+      <documentation>A.1 Context type vocabulary&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/course#CourseSection&#xD;
+CourseSection (deprecated)&#xD;
+urn:lti:context-type:ims/lis/CourseSection (deprecated)</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Course Offering" id="b4c91a18-d7fa-45f0-8060-b1fd9a572f96">
+      <documentation>A.1 Context type vocabulary&#xD;
+http://purl.imsglobal.org/vocab/lis/v2/course#CourseOffering&#xD;
+CourseOffering (deprecated)&#xD;
+urn:lti:context-type:ims/lis/CourseOffering (deprecated)</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Learning Tools Interoperability Core Specification Version 1.3" id="3c62a741-16ad-4879-91ef-08ef451786e0"/>
+    <element xsi:type="archimate:BusinessObject" name="LTI Advantage Conformance Certification Guide" id="4e3ba309-7d46-4197-b0fc-7d8cbdf0e1e6">
+      <documentation>1.3.1 Normative Documents&#xD;
+LTI Advantage Conformance Certification Guide [LTI-CERT-13]&#xD;
+The LTI Advantage Conformance Certification Guide describes the procedures for testing Platforms and Tools against the LTI v1.3 and LTI Advantage services using the IMS certification test suite.&#xD;
+JSON Schema&#xD;
+IMS provides a number of JSON schemas to define the forms of the fundamental LTI message payloads:&#xD;
+LtiResourceLinkRequest.json&#xD;
+URL: https://purl.imsglobal.org/spec/lti/v1p3/schema/json/LtiResourceLinkRequest.json&#xD;
+Errata&#xD;
+The errata [LTI-CORE-13-ERRATA] details any erratum registered for this version of this specification since its publication.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="LtiResourceLinkRequest.json" id="c88e6e6f-cce4-4050-9853-724c19145283">
+      <documentation>1.3.1 Normative Documents&#xD;
+LTI Advantage Conformance Certification Guide [LTI-CERT-13]&#xD;
+The LTI Advantage Conformance Certification Guide describes the procedures for testing Platforms and Tools against the LTI v1.3 and LTI Advantage services using the IMS certification test suite.&#xD;
+JSON Schema&#xD;
+IMS provides a number of JSON schemas to define the forms of the fundamental LTI message payloads:&#xD;
+LtiResourceLinkRequest.json&#xD;
+URL: https://purl.imsglobal.org/spec/lti/v1p3/schema/json/LtiResourceLinkRequest.json&#xD;
+Errata&#xD;
+The errata [LTI-CORE-13-ERRATA] details any erratum registered for this version of this specification since its publication.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="Errata" id="946e9db5-675a-4439-9947-015a0ad81afa">
+      <documentation>1.3.1 Normative Documents&#xD;
+LTI Advantage Conformance Certification Guide [LTI-CERT-13]&#xD;
+The LTI Advantage Conformance Certification Guide describes the procedures for testing Platforms and Tools against the LTI v1.3 and LTI Advantage services using the IMS certification test suite.&#xD;
+JSON Schema&#xD;
+IMS provides a number of JSON schemas to define the forms of the fundamental LTI message payloads:&#xD;
+LtiResourceLinkRequest.json&#xD;
+URL: https://purl.imsglobal.org/spec/lti/v1p3/schema/json/LtiResourceLinkRequest.json&#xD;
+Errata&#xD;
+The errata [LTI-CORE-13-ERRATA] details any erratum registered for this version of this specification since its publication.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessObject" name="LTI Advantage Implementation Guide" id="b04e1866-4a0a-420f-a903-70adc6f5fcb6"/>
+    <element xsi:type="archimate:BusinessProcess" name="Deploy Tool" id="42c0c981-9e29-430b-bbef-917eaf679219">
+      <documentation>3.1.3 Tool Deployment</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" name="Register Tool" id="a3c29e21-9b41-4d14-908c-da81387638d7">
+      <documentation>3.1.3.2 Multi-tenanct: tool registered once, deployed multiple times</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessProcess" name="LTI Launch" id="6b6a26c8-0d7e-4cba-82cb-1ae2b5392ef1">
+      <documentation>3.1.5 LTI Launch</documentation>
+    </element>
+  </folder>
+  <folder name="Application" id="7b4c1b96-f9c3-489c-954d-dbde77f65541" type="application">
+    <element xsi:type="archimate:ApplicationComponent" name="Platform" id="ea45d151-c67a-4ad7-9454-ac57b057f583">
+      <documentation>3.1 Platform and tools</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationService" name="Tool" id="7d4f2a4a-637b-428a-a353-5da122774fbe">
+      <documentation>3.1 Platform and tools</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationFunction" name="Delegated functionality" id="ed6e8c40-4430-49be-9687-10a026a0f03f">
+      <documentation>3.1 Platform and tools</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="deployment_id" id="8870f374-71e7-47c2-aab5-f3a0e39209cd">
+      <documentation>3.1.3 Tool Deployment</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="client_id" id="1c1961e0-0a5a-4ff2-99fb-3d7532eb4c84">
+      <documentation>3.1.3 Tool Deployment</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="LTI Link" id="1fe7cf56-5c0d-4d3b-9296-e98e8418345c">
+      <documentation>3.1.4 LTI Links</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Resource" id="a377b8b1-304f-473f-a236-7ceb55ba57b5"/>
+    <element xsi:type="archimate:DataObject" name="Content" id="25c55254-70d5-43bf-a7e4-379b13278332"/>
+    <element xsi:type="archimate:DataObject" name="URL" id="c3f5118b-5c11-48ea-86b7-35b969ca2e3e">
+      <documentation>3.1.4 LTI Links</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Metadata" id="fb8561f5-2825-4972-a7ff-00192d039193">
+      <documentation>3.1.4 LTI Links</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Resource Link" id="4fa1d494-6fbf-4dc4-8fbf-c00453ed8510">
+      <documentation>3.1.4 LTI Links</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="resource_link_id" id="f99351a3-924c-473a-a034-5884cdbd81d5">
+      <documentation>3.1.4 LTI Links</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Context" id="ff3a1e4a-93fe-4846-98eb-9be6afb7336f">
+      <documentation>3.2 Contexts and resources</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="context_id" id="1459200a-7520-4156-b7fd-2613c1643999">
+      <documentation>3.2 Contexts and resources</documentation>
+    </element>
+  </folder>
+  <folder name="Technology &amp; Physical" id="d7921d34-f1e1-4b3f-8332-9fdfe3417883" type="technology">
+    <element xsi:type="archimate:Artifact" name="Single tenant instance" id="0e0935e7-7d5e-4ba9-aa26-5b53f883b297">
+      <documentation>3.1.3.3 Single tenant: tool registered and deployed once</documentation>
+    </element>
+    <element xsi:type="archimate:Artifact" name="Multi-tenant instance" id="4c42ebf4-c49e-45fd-8268-261bb37cf875">
+      <documentation>3.1.3.2 Mutli-tenant: tool registered once, deployed multiple times</documentation>
+    </element>
+    <element xsi:type="archimate:Artifact" name="client_id instance" id="41277429-6e43-4cfa-ae99-1ca8aea1e936">
+      <documentation>3.1.3.2 Mutli-tenant: tool registered once, deployed multiple times&#xD;
+3.1.3.3 Single tenant: tool registered and deployed once</documentation>
+    </element>
+    <element xsi:type="archimate:Artifact" name="deployment_id instance" id="a8a1fdbc-caa0-4221-9a47-31ca851bb54e">
+      <documentation>3.1.3.2 Mutli-tenant: tool registered once, deployed multiple times&#xD;
+3.1.3.3 Single tenant: tool registered and deployed once</documentation>
+    </element>
+  </folder>
+  <folder name="Motivation" id="5b635274-2095-467c-9c05-587f46f96b72" type="motivation">
+    <element xsi:type="archimate:Meaning" name="Account identifier" id="b4370adc-9b76-4110-8676-ccede12073ce">
+      <documentation>3.1.3.1 Deployment id as account identifier</documentation>
+    </element>
+    <element xsi:type="archimate:Meaning" name="Security Contract" id="23d2855e-db0e-4141-b38f-f0bbdf7a8ef7">
+      <documentation>3.1.3.1 Deployment id as account identifier</documentation>
+    </element>
+    <element xsi:type="archimate:Meaning" name="Course" id="9f077884-acbe-4e6a-aa8a-0b7513d2aeca">
+      <documentation>3.2 Contexts and resources</documentation>
+    </element>
+    <element xsi:type="archimate:Meaning" name="Group" id="d21a38ea-7bc7-456d-832a-f84640e0743a">
+      <documentation>3.2 Contexts and resources</documentation>
+    </element>
+    <element xsi:type="archimate:Meaning" name="Project" id="7b572521-cd4f-44ec-ba38-477e9c83334c">
+      <documentation>3.2 Contexts and resources</documentation>
+    </element>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="2feabe8f-2fcc-4ef2-b5ff-a0836d0b7275" type="implementation_migration"/>
+  <folder name="Other" id="e4246236-1024-4b5b-8f1f-ab2a305ba00f" type="other">
+    <element xsi:type="archimate:Grouping" name="JSON Schema" id="8dc6c4c7-bbe4-41b1-97eb-b8f74428f7c0"/>
+  </folder>
+  <folder name="Relations" id="3ebbbfd7-952c-4b17-8fbc-5004317cf81b" type="relations">
+    <element xsi:type="archimate:CompositionRelationship" id="2565233a-863e-4f7f-a00e-730639940206" source="b363687d-61f0-4c99-8788-6d29a29b5e37" target="7bd28cfd-bb7d-4ecb-bf83-b0cce6a564d2"/>
+    <element xsi:type="archimate:CompositionRelationship" id="133ea10b-c664-43c1-b273-66c8ba0cbef7" source="b363687d-61f0-4c99-8788-6d29a29b5e37" target="e7a41723-5f91-40e6-8a5d-2de55dc0ea39"/>
+    <element xsi:type="archimate:CompositionRelationship" id="4daed9e1-5a50-4b23-bd8c-275e83a94709" source="b363687d-61f0-4c99-8788-6d29a29b5e37" target="4af65f7d-be6b-4288-a79d-8d52e7dd25ac"/>
+    <element xsi:type="archimate:CompositionRelationship" id="fab60b98-6a2b-4aed-af40-554da7ffb157" source="b363687d-61f0-4c99-8788-6d29a29b5e37" target="3837f02f-7193-416b-98f0-8c068d90e113"/>
+    <element xsi:type="archimate:CompositionRelationship" id="9c189123-57d0-4b1d-ab62-b2fdac46eb15" source="b363687d-61f0-4c99-8788-6d29a29b5e37" target="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2"/>
+    <element xsi:type="archimate:CompositionRelationship" id="23d9d610-a7e9-42f2-87b6-3bf442f4a5d1" source="26653921-4d10-4a93-9607-2025cdf04ebb" target="489cf90b-2d56-4b47-b737-63904224f38f"/>
+    <element xsi:type="archimate:CompositionRelationship" id="4cd2d5f6-3d02-4114-8de0-6eac07751770" source="26653921-4d10-4a93-9607-2025cdf04ebb" target="2d826e62-34a9-404a-a57c-353f287b1877"/>
+    <element xsi:type="archimate:CompositionRelationship" id="898cb89c-7418-48e9-add0-8a1d16470e43" source="26653921-4d10-4a93-9607-2025cdf04ebb" target="a6efeb28-1bde-4203-9436-40e5df1d31d4"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="32b4ae19-7eb9-4f80-b061-3d0ddaf0a6cf" source="8b36e5f5-94d5-4ab8-a498-30f3c1da28a1" target="7ba5c269-c857-45d8-b98a-072f9d1b2043"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="24b3ff8f-89af-4e9d-a759-2ec3e93937c2" source="8b36e5f5-94d5-4ab8-a498-30f3c1da28a1" target="c34e13e1-eac1-4fa7-8fa6-ab75c7288740"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="cc56601f-ed47-47c8-a211-a3c461cdd485" source="8b36e5f5-94d5-4ab8-a498-30f3c1da28a1" target="4354c8e3-2760-4c0e-aa7e-384170ee9f8e"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="b847d71c-d19b-4bcc-afa5-6f4b88441e87" source="8b36e5f5-94d5-4ab8-a498-30f3c1da28a1" target="06306f93-6531-477b-b0f9-317e71bd6064"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="bc90eb6c-2576-40a2-9268-eae8e174d859" source="8b36e5f5-94d5-4ab8-a498-30f3c1da28a1" target="e2455d66-cac5-4d14-9939-9a3a61e8f9ae"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="dba6017f-4d7c-48a5-9ebb-62b7d57bd6ac" source="8b36e5f5-94d5-4ab8-a498-30f3c1da28a1" target="0d1a3ce7-84a5-450b-8e22-78547853e4ec"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="3bfe144a-0f05-4dc9-94b0-21b13d4a83fe" source="8b36e5f5-94d5-4ab8-a498-30f3c1da28a1" target="8c61ef59-3438-4433-9089-0caf0139d35e"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="57c589e9-ebf1-4179-b966-e907c270284a" source="a128ee0b-3241-4e82-b4fc-4727399cc0f7" target="b83f21d1-e783-4b04-8908-beb9399216f4"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="593866b0-3e26-4245-b25f-ae4d6a687516" source="a128ee0b-3241-4e82-b4fc-4727399cc0f7" target="ee26afda-d964-4672-849d-a9e70a01f6e2"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="3d08d0e0-5b1e-4715-addf-c49f036d3793" source="a128ee0b-3241-4e82-b4fc-4727399cc0f7" target="63f6707d-9cd7-4469-bfa4-be86435ab3c6"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="ace02349-80d6-4121-b408-2faa30455874" source="a128ee0b-3241-4e82-b4fc-4727399cc0f7" target="c17329d8-2bbf-4f52-9bbf-cdc8cad6bf90"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="835a595c-aa0b-40b0-96ea-3356cb8d5a05" source="a128ee0b-3241-4e82-b4fc-4727399cc0f7" target="357a6df8-5cfd-4b09-b4ea-1070214d3aa6"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="9668b67e-0014-493c-888f-4fdd1e5affde" source="fcc22f62-c06f-4476-a894-bae18a03e88d" target="47e41dc0-492d-4a57-a82d-3fbf1e7af2c9"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="e3cb4e6b-4bc9-4dad-942f-736433d06c15" source="fcc22f62-c06f-4476-a894-bae18a03e88d" target="2d072cf6-101b-4a0c-aef8-5f0b53919445"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="80f102ff-d960-4bfb-9ce1-c21d80cc80a9" source="7bd28cfd-bb7d-4ecb-bf83-b0cce6a564d2" target="d41591b2-1529-4a53-803b-b295379b8e98"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="eb06fe4a-d0b2-46c0-9807-8c5efc072351" source="e7a41723-5f91-40e6-8a5d-2de55dc0ea39" target="d41591b2-1529-4a53-803b-b295379b8e98"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="bdc9c8e1-3037-4193-b6bc-d016edf4d91d" source="4af65f7d-be6b-4288-a79d-8d52e7dd25ac" target="d41591b2-1529-4a53-803b-b295379b8e98"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="52a5b6a6-4c95-4b94-bbb6-c41caf039275" source="3837f02f-7193-416b-98f0-8c068d90e113" target="d41591b2-1529-4a53-803b-b295379b8e98"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="76830216-0553-4541-a70e-c267187105b8" source="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2" target="d41591b2-1529-4a53-803b-b295379b8e98"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="797e1674-0e7c-446b-adb1-9354ad0bdd4c" source="489cf90b-2d56-4b47-b737-63904224f38f" target="d41591b2-1529-4a53-803b-b295379b8e98"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="1c72fc18-9379-468d-8027-ed5058070224" source="2d826e62-34a9-404a-a57c-353f287b1877" target="d41591b2-1529-4a53-803b-b295379b8e98"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="6f5f3ad2-54af-41d3-9b05-f9a005b330a6" source="a6efeb28-1bde-4203-9436-40e5df1d31d4" target="d41591b2-1529-4a53-803b-b295379b8e98"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="bfcd99dd-062a-49c4-b133-113a19468f85" source="07f2274d-ff30-4057-80da-ecb2b3a3a7d3" target="7bd28cfd-bb7d-4ecb-bf83-b0cce6a564d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="d125c42a-fb41-4093-bc13-3ae293324b16" source="8feb355d-d9d3-4fee-ab60-bd925d7b095b" target="7bd28cfd-bb7d-4ecb-bf83-b0cce6a564d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="5acae493-a724-4d17-8513-f116824f6457" source="3ce7efaa-7457-4179-a938-8312f18a5acf" target="7bd28cfd-bb7d-4ecb-bf83-b0cce6a564d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="61980897-30de-4bdf-aa5b-dde30c0c6ccf" source="ca8a952a-1a8f-42de-a1f3-679fb65ebf37" target="7bd28cfd-bb7d-4ecb-bf83-b0cce6a564d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="c5f35890-7a02-4e28-8c90-96e26df7f44b" source="8df16f41-def3-40af-95e0-6f31a55aba40" target="7bd28cfd-bb7d-4ecb-bf83-b0cce6a564d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="9a50a4c7-ecc0-477c-bc28-ee2b5dc859bf" source="1caeb37a-8aa5-4554-bebc-4e4b0c0a7ed7" target="7bd28cfd-bb7d-4ecb-bf83-b0cce6a564d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="94cb5f4a-a8c0-40c5-8e37-7c78ded93df0" source="2e315477-d282-425c-ada4-0bc207269afe" target="7bd28cfd-bb7d-4ecb-bf83-b0cce6a564d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="8f651bf1-038a-4031-92da-3a39a0e4927a" source="66516bac-0725-4e1f-898b-c9b612e95894" target="e7a41723-5f91-40e6-8a5d-2de55dc0ea39"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="ce3e9e52-2b10-43d6-96a3-576129a2bcf3" source="ae9c0f61-11b6-4842-a689-07ade00f236a" target="e7a41723-5f91-40e6-8a5d-2de55dc0ea39"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="9610045a-7ae7-4750-a972-6ce7eb36e35b" source="065abbb0-f6cc-40d9-b764-02bae4a3d255" target="e7a41723-5f91-40e6-8a5d-2de55dc0ea39"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="083b8377-acfa-495c-bf4d-6efc029bbd84" source="5170ac6b-16cc-44e1-804a-4b296258e9bf" target="e7a41723-5f91-40e6-8a5d-2de55dc0ea39"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="22c7c5ab-8e87-4cab-9cfc-c8e8abb60b1b" source="5b77d8fb-570d-419a-98dd-69246e08b2c3" target="e7a41723-5f91-40e6-8a5d-2de55dc0ea39"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="79620ee5-2c5d-4033-a53b-e5d5e581a5be" source="663689f9-f6b1-461e-a3cc-8322a675bbbe" target="4af65f7d-be6b-4288-a79d-8d52e7dd25ac"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="2ecefd54-fa9d-4c49-9620-6edcbe78e39f" source="6f4fdf01-16f8-42b8-8cc4-1c2626299fce" target="4af65f7d-be6b-4288-a79d-8d52e7dd25ac"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="6fd91970-e3a5-4d67-8067-157b818aa8a0" source="757e172b-379e-4e75-8c72-e087cf1471fb" target="4af65f7d-be6b-4288-a79d-8d52e7dd25ac"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="e7e8880b-db1a-45d3-ad95-6129b491a2f4" source="82eb7ac1-30e7-4b55-8a04-247f5ad1954a" target="4af65f7d-be6b-4288-a79d-8d52e7dd25ac"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="ce678d3f-7382-461e-8ba7-d3d31249b92c" source="2c16cb55-457c-4b32-82e9-2bc9cf89598d" target="3837f02f-7193-416b-98f0-8c068d90e113"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="1030accc-2078-4b21-a7df-7d92e79a507a" source="8f78e398-576b-434b-abee-8b883a835d2d" target="3837f02f-7193-416b-98f0-8c068d90e113"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="0f755319-1e05-4c9f-81fd-5dc16c417eb7" source="155da350-6358-43ac-8a28-d8c036b434e2" target="3837f02f-7193-416b-98f0-8c068d90e113"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="16c8273b-febd-4e42-95ac-3caec8303ec4" source="268181ee-64b9-44b0-96dc-b102dc0b1f78" target="3837f02f-7193-416b-98f0-8c068d90e113"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="575e3b8b-cb65-4890-bb39-857809ef57b5" source="326069ce-5d99-487e-a3c7-9639cd72c8a0" target="3837f02f-7193-416b-98f0-8c068d90e113"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="7659fbd1-fdfa-477c-92f9-b00debb3b10e" source="9111ebc2-7b98-49c1-a5a3-fa7a0ff8416c" target="3837f02f-7193-416b-98f0-8c068d90e113"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="aafabd04-88ac-49b7-9e29-6aa02310ff35" source="2233a7a7-73d6-4e06-805f-a578f495c3ef" target="3837f02f-7193-416b-98f0-8c068d90e113"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="4235bd13-4a3e-435f-a9d6-d443dc406269" source="5f90781d-5f15-4e71-a8d3-2bc69a2f5a33" target="3837f02f-7193-416b-98f0-8c068d90e113"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="431ff761-275a-420a-86e1-8a3e309ed22c" source="1c604e7f-731f-4f82-8334-00afa0d1ba43" target="3837f02f-7193-416b-98f0-8c068d90e113"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="35cac659-449f-488c-9dca-fcf3bd8d6ee3" source="e10452fd-2fc7-49f0-9820-19abe567985b" target="3837f02f-7193-416b-98f0-8c068d90e113"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="53fe1f9c-dfe8-4015-9968-06235d32eaf3" source="dec3ea2c-71f4-4cb7-83e1-16b087f8a3b7" target="3837f02f-7193-416b-98f0-8c068d90e113"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="98a960fc-4cc1-43b0-99d2-065261fa0bd7" source="32fb1eef-5619-4b71-a505-bb508cb06b89" target="3837f02f-7193-416b-98f0-8c068d90e113"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="4e71ab31-8063-4b7d-8b9f-af8bcfd22ed2" source="25cfdd14-065f-4e06-b9ed-d8c89b40342b" target="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="4176987b-3596-445e-a7af-1a3f88c4adb2" source="2f353c44-f8d1-40c3-b121-3f17881f43bf" target="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="84988894-0144-40d0-8862-dfff72fead53" source="5664370d-b221-490c-9b48-579f463c4af5" target="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="f4d0e26c-6090-488d-8f31-f243e913d61b" source="8c5ee72a-cdd2-4ebd-a507-afb8d50aab22" target="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="0cb399c7-db3f-4fd8-8110-0315451017ee" source="71efb133-4547-4bff-960a-e89cd4b0161d" target="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="9e170968-4081-43eb-8078-55e2c9075315" source="e31663a3-6849-48ad-9388-09cc07a506b6" target="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="75327bf8-dd69-4744-9b04-342f1546b8e1" source="eebab113-f617-4cd3-9f8c-09854aa0c593" target="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="c7f1eb6d-8ecf-4a90-a50d-aa74d0b60037" source="c53d7e70-d4f1-489c-965d-9311a398a373" target="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="ed34e2af-74c1-4f1c-88bf-c33e8e4cd5b2" source="8dcf8e33-26fb-46f6-8253-2a6ad47aca2f" target="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="3a976ddf-4a64-438c-914a-6c470428ad10" source="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2" target="1594c5a4-723e-4cdc-b052-00d47f5283f7"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="9e8bf4f2-4f7f-45f9-9f65-4f00e3378c3b" source="64dd186e-4151-48df-9439-2cfb135df8b5" target="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="7892d2fa-4980-4e4b-bdc5-eb09632b6583" source="9c04640b-6eec-4cf4-b52d-ed4a2e4ecca4" target="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="56bfac24-6da9-44bb-84e3-7bb4b83f772e" source="978d3457-8be7-490e-9a8f-df475a0a77cf" target="489cf90b-2d56-4b47-b737-63904224f38f"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="08cfc363-24c2-477d-b412-3bf51c5cd9a1" source="a8e3a9ae-7fb1-4c53-97f2-a67c276702e8" target="2d826e62-34a9-404a-a57c-353f287b1877"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="d1d2904e-c543-46f9-b8ff-39f0a7f38ff8" source="10013bba-8cb2-4f0f-aeeb-bf20aed2cf50" target="2d826e62-34a9-404a-a57c-353f287b1877"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="30c6fbb2-2579-489b-bd95-930667fc6485" source="20abe8a4-d098-4a60-9db2-908b3b563abe" target="2d826e62-34a9-404a-a57c-353f287b1877"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="e7f4608d-1891-4731-9414-1844719e6fca" source="2fcc65c2-1760-47d1-aae3-95c55a37c9f3" target="2d826e62-34a9-404a-a57c-353f287b1877"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="cc929435-feeb-4797-91b7-ac6e5b672bd8" source="f7a7277f-e4d7-44e5-a3a5-4fb0ed27f84f" target="2d826e62-34a9-404a-a57c-353f287b1877"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="503f2f6e-0e13-422d-a942-bd1d7bc9a673" source="2a34cc5d-e547-4153-b813-37f9f6439463" target="a6efeb28-1bde-4203-9436-40e5df1d31d4"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="a444a3c7-db9f-4964-b70c-848f5897fb88" source="f3a258dc-05ee-4c21-a587-c6403162e312" target="a6efeb28-1bde-4203-9436-40e5df1d31d4"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="2b425dec-36c3-4507-b60d-8f424bb1ee04" source="461ef975-f946-41b4-aa5f-806884e45355" target="a6efeb28-1bde-4203-9436-40e5df1d31d4"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="28f4578c-4ac1-4e8d-a2b4-933fe6f19cfd" source="f336f615-68e2-4012-9b77-0af6c51e2d00" target="a6efeb28-1bde-4203-9436-40e5df1d31d4"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="9c3fe13f-4a4d-4917-bd95-b7fb657d26f6" source="a3f67bbe-6703-4336-855a-9303c0106298" target="a6efeb28-1bde-4203-9436-40e5df1d31d4"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="0573d27d-0e13-44f2-8404-05afe17bb041" source="07f2274d-ff30-4057-80da-ecb2b3a3a7d3" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="e759a39f-8575-4aa9-9428-061742af2e36" source="8feb355d-d9d3-4fee-ab60-bd925d7b095b" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="9d329255-881c-4c0d-a610-d40efe9597c0" source="3ce7efaa-7457-4179-a938-8312f18a5acf" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="f2b90661-96f2-41a0-a152-c43c72328622" source="ca8a952a-1a8f-42de-a1f3-679fb65ebf37" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="fab042f1-c691-4c67-8363-77f5e2bb7ee8" source="8df16f41-def3-40af-95e0-6f31a55aba40" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="4b078f0a-5d56-4482-9034-e49f4aed306e" source="1caeb37a-8aa5-4554-bebc-4e4b0c0a7ed7" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="d4db359d-bc41-4eac-9b56-b5dde864eaec" source="2e315477-d282-425c-ada4-0bc207269afe" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="6cf6ee23-a9c3-4741-a075-c2864be4f0ca" source="66516bac-0725-4e1f-898b-c9b612e95894" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="978a86f1-f9f2-40af-9936-7d68b5d74434" source="ae9c0f61-11b6-4842-a689-07ade00f236a" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="20e86684-00d7-4e4f-8629-462fccbd2e69" source="065abbb0-f6cc-40d9-b764-02bae4a3d255" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="51ca877e-0eb6-43c4-b012-58adbae810c6" source="5170ac6b-16cc-44e1-804a-4b296258e9bf" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="0d944eb7-7a19-4857-ba58-e4eef4149e95" source="5b77d8fb-570d-419a-98dd-69246e08b2c3" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="1ae71881-0333-40ee-8c78-db342ba1be8f" source="6f4fdf01-16f8-42b8-8cc4-1c2626299fce" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="48de2fe7-2eb3-4c34-86fa-3387eddd59e2" source="757e172b-379e-4e75-8c72-e087cf1471fb" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="b35ec713-01cf-444b-bfd1-183551b1a92f" source="82eb7ac1-30e7-4b55-8a04-247f5ad1954a" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="c04c4c0b-4b16-400a-992e-d7a0a69835d5" source="663689f9-f6b1-461e-a3cc-8322a675bbbe" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="d20ce1ab-5618-4d06-bdce-500ce069eaa1" source="2c16cb55-457c-4b32-82e9-2bc9cf89598d" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="5e8f7849-4045-4365-ba61-cdae64e93c5a" source="1c604e7f-731f-4f82-8334-00afa0d1ba43" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="3bf04263-529f-4394-81c5-8a397e5922e8" source="2233a7a7-73d6-4e06-805f-a578f495c3ef" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="dce75d4e-3a40-4a9d-851a-8795c3d026c3" source="9111ebc2-7b98-49c1-a5a3-fa7a0ff8416c" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="c623a961-eccc-4abf-b1a6-0ce483790376" source="64dd186e-4151-48df-9439-2cfb135df8b5" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="0ea728ee-d758-4546-85cc-6fdd5facc4b0" source="71efb133-4547-4bff-960a-e89cd4b0161d" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="4ee79e99-b92e-4bcb-add8-a595ce97da52" source="155da350-6358-43ac-8a28-d8c036b434e2" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="5d21331b-6da2-4b0d-bd36-45d79bc17b41" source="5f90781d-5f15-4e71-a8d3-2bc69a2f5a33" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="ecfeb0c8-c237-4324-b27e-3559902f49ac" source="1594c5a4-723e-4cdc-b052-00d47f5283f7" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="ae88b5e7-4f9a-4801-8232-89da44af0955" source="32fb1eef-5619-4b71-a505-bb508cb06b89" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="05a91943-c9c8-497b-a296-a6e71a7726c6" source="5664370d-b221-490c-9b48-579f463c4af5" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="e24d6500-7817-4408-9126-1013e6af4630" source="25cfdd14-065f-4e06-b9ed-d8c89b40342b" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="3e502338-574a-4a6b-b49e-e3cdbc4c86c2" source="8dcf8e33-26fb-46f6-8253-2a6ad47aca2f" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="8ba44806-9bfa-4841-bbd1-8147d329d1a3" source="268181ee-64b9-44b0-96dc-b102dc0b1f78" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="edb2a13c-1fa4-4657-94e6-cc568dbddbb2" source="8f78e398-576b-434b-abee-8b883a835d2d" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="b3c208af-3631-460d-b26d-5d53659d8c3b" source="326069ce-5d99-487e-a3c7-9639cd72c8a0" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="863fd60e-dd93-4ba4-8538-5970ea1b5aa2" source="8c5ee72a-cdd2-4ebd-a507-afb8d50aab22" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="7f4c5204-926e-4ea9-96e1-1dec1eab1294" source="e10452fd-2fc7-49f0-9820-19abe567985b" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="2eabb485-7910-4a5a-8abc-27af2614723a" source="e31663a3-6849-48ad-9388-09cc07a506b6" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="7f024ab8-9302-434f-925e-a2eadf54fe90" source="c53d7e70-d4f1-489c-965d-9311a398a373" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="238e97a4-b9af-4927-ba61-ebbe79ba66e4" source="dec3ea2c-71f4-4cb7-83e1-16b087f8a3b7" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="7e6117ca-74a3-4832-91ba-06f9bfa2c60d" source="9c04640b-6eec-4cf4-b52d-ed4a2e4ecca4" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="f7f01073-e5e9-447b-afea-ecc7e7eea388" source="eebab113-f617-4cd3-9f8c-09854aa0c593" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="7081aead-581c-413b-80ba-efd0e3384b0c" source="2f353c44-f8d1-40c3-b121-3f17881f43bf" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="753e156e-bfe0-4e36-8333-a3232965f5c2" source="978d3457-8be7-490e-9a8f-df475a0a77cf" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="6ef7e694-d49b-4c6b-9542-7c60b51c6ad0" source="f7a7277f-e4d7-44e5-a3a5-4fb0ed27f84f" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="8171bfb7-e5d6-4a68-b294-71e283c580e1" source="10013bba-8cb2-4f0f-aeeb-bf20aed2cf50" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="31af70b6-f45f-4ef8-996e-ecf38c46d648" source="461ef975-f946-41b4-aa5f-806884e45355" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="2b2e2d9f-e754-4109-a024-8791cb2e750e" source="2a34cc5d-e547-4153-b813-37f9f6439463" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="55011ed1-32e3-4826-b6a0-18d440458b1a" source="2fcc65c2-1760-47d1-aae3-95c55a37c9f3" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="179003f3-273d-4e39-a5ad-fb983834c146" source="f336f615-68e2-4012-9b77-0af6c51e2d00" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="63c8ad3d-6a71-4cc8-8f09-de1bfe26ab6f" source="f3a258dc-05ee-4c21-a587-c6403162e312" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="b5ad5620-ee2e-42ca-8d04-fcd8bae580c6" source="a3f67bbe-6703-4336-855a-9303c0106298" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="19b6f86a-e99c-441b-8c0e-5e077cf6b15d" source="a8e3a9ae-7fb1-4c53-97f2-a67c276702e8" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:SpecializationRelationship" name="Type of" id="df8a2fa2-7b58-4d9e-a3cb-4489c3d0ebdd" source="20abe8a4-d098-4a60-9db2-908b3b563abe" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="3b2b75c4-097f-424a-a6b9-5d5df3b5c978" source="e115ec24-cd78-485b-b132-110517e23c04" target="3cbd22af-94b5-4e2a-8278-d86d42979131"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="e36acfab-518b-4037-8c35-7ffa778dd4f6" source="e115ec24-cd78-485b-b132-110517e23c04" target="2a66ea13-7017-4919-88f4-7a732503a9e9"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="c9f8270d-6131-4d77-95d4-2055c6b006ec" source="e115ec24-cd78-485b-b132-110517e23c04" target="e83546e3-f22b-41ef-8e5d-1b5fff08a9ba"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="9b5d4901-7436-45f4-99b2-080303c0089a" source="e115ec24-cd78-485b-b132-110517e23c04" target="e48ad731-b13d-4fe6-b032-5444c933066b"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="dfd30cdc-cb90-45d8-afc7-b96c72f51f5e" source="e115ec24-cd78-485b-b132-110517e23c04" target="0600d321-2099-4d88-a658-e8e362d63b34"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="f4b7f241-4aa4-4cc0-9552-dfc44cbda192" source="e115ec24-cd78-485b-b132-110517e23c04" target="cba7876b-4ae6-4e1f-9d51-0200339e4135"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="7f6059fd-5a4e-409b-b62c-f5e6f5dfc912" source="e115ec24-cd78-485b-b132-110517e23c04" target="ca569631-cf03-4bee-9092-07bb1f3c6a25"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Consists of" id="23e55d52-80a8-4089-951f-312378097ada" source="d41591b2-1529-4a53-803b-b295379b8e98" target="3d582c53-09f6-4872-9857-3225c82c4c41"/>
+    <element xsi:type="archimate:AggregationRelationship" name="Supports" id="6b7fa2cb-e51e-4187-b2bb-362c32bc36ca" source="3c62a741-16ad-4879-91ef-08ef451786e0" target="4e3ba309-7d46-4197-b0fc-7d8cbdf0e1e6"/>
+    <element xsi:type="archimate:CompositionRelationship" id="e32a608e-32c7-4323-adb9-8ee709be28d1" source="8dc6c4c7-bbe4-41b1-97eb-b8f74428f7c0" target="c88e6e6f-cce4-4050-9853-724c19145283"/>
+    <element xsi:type="archimate:AggregationRelationship" name="Supports" id="8dd360ee-0ea7-4989-990e-bf825bc39689" source="3c62a741-16ad-4879-91ef-08ef451786e0" target="c88e6e6f-cce4-4050-9853-724c19145283"/>
+    <element xsi:type="archimate:AggregationRelationship" name="Supports" id="4c977890-a78f-4462-898b-c9710f7c4c92" source="3c62a741-16ad-4879-91ef-08ef451786e0" target="946e9db5-675a-4439-9947-015a0ad81afa"/>
+    <element xsi:type="archimate:AssociationRelationship" name="Applies" id="b69ec250-17dc-46d4-930e-c4ffe661757e" source="b04e1866-4a0a-420f-a903-70adc6f5fcb6" target="3c62a741-16ad-4879-91ef-08ef451786e0"/>
+    <element xsi:type="archimate:ServingRelationship" name="Externally fulfills needs of" id="5ace39f9-a5d9-48cb-98db-4b5183d3466a" source="ed6e8c40-4430-49be-9687-10a026a0f03f" target="ea45d151-c67a-4ad7-9454-ac57b057f583">
+      <documentation>3.1 Platform and tools</documentation>
+    </element>
+    <element xsi:type="archimate:RealizationRelationship" name="Exposed by" id="53d3118d-fafc-4e83-9e31-225e694277c1" source="ed6e8c40-4430-49be-9687-10a026a0f03f" target="7d4f2a4a-637b-428a-a353-5da122774fbe">
+      <documentation>3.1 Platform and tools</documentation>
+    </element>
+    <element xsi:type="archimate:ServingRelationship" name="Provides functionality to" id="79cb01b2-a3a9-4427-8617-a8e9aaf6bd8f" source="7d4f2a4a-637b-428a-a353-5da122774fbe" target="ea45d151-c67a-4ad7-9454-ac57b057f583">
+      <documentation>3.1 Platform and tools</documentation>
+    </element>
+    <element xsi:type="archimate:AccessRelationship" name="Creates a unique" id="fcadb711-786e-4e65-992e-68138814f0f4" source="42c0c981-9e29-430b-bbef-917eaf679219" target="8870f374-71e7-47c2-aab5-f3a0e39209cd"/>
+    <element xsi:type="archimate:FlowRelationship" name="message" id="86f2e2c5-6c74-4335-b97b-512b2f1a54b3" source="ea45d151-c67a-4ad7-9454-ac57b057f583" target="7d4f2a4a-637b-428a-a353-5da122774fbe">
+      <documentation>3.1.3 Tool Deployment</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" name="Must include" id="5cba94f7-87c6-4b08-a232-5ce6fb738248" source="8870f374-71e7-47c2-aab5-f3a0e39209cd" target="86f2e2c5-6c74-4335-b97b-512b2f1a54b3">
+      <documentation>3.1.3 Tool Deployment</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" name="Must include" id="0e3045e5-b0f0-469a-8651-0ceaf75928bc" source="1c1961e0-0a5a-4ff2-99fb-3d7532eb4c84" target="86f2e2c5-6c74-4335-b97b-512b2f1a54b3">
+      <documentation>3.1.3 Tool Deployment</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" name="Acts as" id="04dcd65d-091b-4690-bbd8-802502251af4" source="b4370adc-9b76-4110-8676-ccede12073ce" target="8870f374-71e7-47c2-aab5-f3a0e39209cd"/>
+    <element xsi:type="archimate:AccessRelationship" id="b9943570-b8dc-4147-9229-61aaf4924ffa" source="ea45d151-c67a-4ad7-9454-ac57b057f583" target="1c1961e0-0a5a-4ff2-99fb-3d7532eb4c84" accessType="3"/>
+    <element xsi:type="archimate:AccessRelationship" id="95c26968-ecc5-45cf-94e7-321accc7c149" source="ea45d151-c67a-4ad7-9454-ac57b057f583" target="8870f374-71e7-47c2-aab5-f3a0e39209cd" accessType="3"/>
+    <element xsi:type="archimate:AssociationRelationship" id="e1699438-8fec-4caa-a1d5-3749a0471e6b" source="23d2855e-db0e-4141-b38f-f0bbdf7a8ef7" target="1c1961e0-0a5a-4ff2-99fb-3d7532eb4c84"/>
+    <element xsi:type="archimate:AccessRelationship" name="Creates" id="65a17bb4-7f57-41ba-abf6-22a2d48d0798" source="a3c29e21-9b41-4d14-908c-da81387638d7" target="1c1961e0-0a5a-4ff2-99fb-3d7532eb4c84"/>
+    <element xsi:type="archimate:RealizationRelationship" name="Instance of" id="13f4b43b-e38c-4f38-bf6d-74309e3d6a07" source="a8a1fdbc-caa0-4221-9a47-31ca851bb54e" target="8870f374-71e7-47c2-aab5-f3a0e39209cd"/>
+    <element xsi:type="archimate:RealizationRelationship" name="Instance of" id="3e865ef5-9962-46ef-afd3-a607a9eaf9d2" source="41277429-6e43-4cfa-ae99-1ca8aea1e936" target="1c1961e0-0a5a-4ff2-99fb-3d7532eb4c84"/>
+    <element xsi:type="archimate:CompositionRelationship" name="Many" id="d09e664d-a214-4921-a0fb-ee997965f4d0" source="4c42ebf4-c49e-45fd-8268-261bb37cf875" target="a8a1fdbc-caa0-4221-9a47-31ca851bb54e">
+      <documentation>3.1.3.2 Mutli-tenant: tool registered once, deployed multiple times</documentation>
+    </element>
+    <element xsi:type="archimate:CompositionRelationship" name="Many" id="72a0d3c0-1205-45b8-8f3b-a1c0d94f9a50" source="0e0935e7-7d5e-4ba9-aa26-5b53f883b297" target="a8a1fdbc-caa0-4221-9a47-31ca851bb54e">
+      <documentation>3.1.3.3 Single tenant: tool registered and deployed once</documentation>
+    </element>
+    <element xsi:type="archimate:CompositionRelationship" name="Many" id="fd9413a9-74a0-4784-be43-b31c1f79aa14" source="0e0935e7-7d5e-4ba9-aa26-5b53f883b297" target="41277429-6e43-4cfa-ae99-1ca8aea1e936">
+      <documentation>3.1.3.3 Single tenant: tool registered and deployed once</documentation>
+    </element>
+    <element xsi:type="archimate:CompositionRelationship" name="One" id="0726c29e-971e-4f9f-9444-b3b5ceff27e6" source="4c42ebf4-c49e-45fd-8268-261bb37cf875" target="41277429-6e43-4cfa-ae99-1ca8aea1e936">
+      <documentation>3.1.3.2 Mutli-tenant: tool registered once, deployed multiple times</documentation>
+    </element>
+    <element xsi:type="archimate:AccessRelationship" id="13ee87c8-dd72-4758-b288-bd5488610b1a" source="ea45d151-c67a-4ad7-9454-ac57b057f583" target="1fe7cf56-5c0d-4d3b-9296-e98e8418345c"/>
+    <element xsi:type="archimate:AssociationRelationship" id="3f2dfc9d-13da-483d-8c3b-6e8bdb4a6cea" source="7d4f2a4a-637b-428a-a353-5da122774fbe" target="a377b8b1-304f-473f-a236-7ceb55ba57b5"/>
+    <element xsi:type="archimate:AssociationRelationship" id="f48cbed9-8ed6-4c61-a192-3f5a8eb13d8f" source="25c55254-70d5-43bf-a7e4-379b13278332" target="7d4f2a4a-637b-428a-a353-5da122774fbe"/>
+    <element xsi:type="archimate:CompositionRelationship" id="49b41d36-fad5-4fa2-a9fd-9a6f39140a72" source="1fe7cf56-5c0d-4d3b-9296-e98e8418345c" target="c3f5118b-5c11-48ea-86b7-35b969ca2e3e">
+      <documentation>3.1.4 LTI Links</documentation>
+    </element>
+    <element xsi:type="archimate:CompositionRelationship" id="23c84323-b620-430b-b512-19fc0fd2ef6e" source="1fe7cf56-5c0d-4d3b-9296-e98e8418345c" target="fb8561f5-2825-4972-a7ff-00192d039193">
+      <documentation>3.1.4 LTI Links</documentation>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" name="Associated to" id="62cdca0a-58d5-4fe9-b419-915e6ea9d05b" source="8870f374-71e7-47c2-aab5-f3a0e39209cd" target="1fe7cf56-5c0d-4d3b-9296-e98e8418345c"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="e7d12984-5f84-471c-8383-cca9e53df336" source="4fa1d494-6fbf-4dc4-8fbf-c00453ed8510" target="1fe7cf56-5c0d-4d3b-9296-e98e8418345c">
+      <documentation>3.1.4 LTI Links</documentation>
+    </element>
+    <element xsi:type="archimate:CompositionRelationship" id="ee55d061-00be-4597-a48f-6edc7867e484" source="4fa1d494-6fbf-4dc4-8fbf-c00453ed8510" target="f99351a3-924c-473a-a034-5884cdbd81d5">
+      <documentation>3.1.4 LTI Links</documentation>
+    </element>
+    <element xsi:type="archimate:AggregationRelationship" name="References" id="ce2774ab-4498-4ced-803a-2414210c1d9d" source="f99351a3-924c-473a-a034-5884cdbd81d5" target="a377b8b1-304f-473f-a236-7ceb55ba57b5">
+      <documentation>3.1.4 LTI Links</documentation>
+    </element>
+    <element xsi:type="archimate:AccessRelationship" id="ffdeefa0-439a-4a52-b352-37d43dcc3e10" source="6b6a26c8-0d7e-4cba-82cb-1ae2b5392ef1" target="1fe7cf56-5c0d-4d3b-9296-e98e8418345c" accessType="1">
+      <documentation>3.1.5 LTI Launch</documentation>
+    </element>
+    <element xsi:type="archimate:TriggeringRelationship" id="3527366f-3aec-4665-bb7a-3e7b2b7027db" source="6b6a26c8-0d7e-4cba-82cb-1ae2b5392ef1" target="7d4f2a4a-637b-428a-a353-5da122774fbe">
+      <documentation>3.1.5 LTI Launch</documentation>
+    </element>
+    <element xsi:type="archimate:AssignmentRelationship" id="36c089ba-5e09-47cb-b10b-ad25cc834779" source="b83f21d1-e783-4b04-8908-beb9399216f4" target="6b6a26c8-0d7e-4cba-82cb-1ae2b5392ef1"/>
+    <element xsi:type="archimate:AssociationRelationship" id="8b7e8456-61cc-4b22-8f27-6da5457f46ce" source="9f077884-acbe-4e6a-aa8a-0b7513d2aeca" target="ff3a1e4a-93fe-4846-98eb-9be6afb7336f"/>
+    <element xsi:type="archimate:AssociationRelationship" id="a3727b74-813b-4e6e-80f9-ccb2c5a23961" source="d21a38ea-7bc7-456d-832a-f84640e0743a" target="ff3a1e4a-93fe-4846-98eb-9be6afb7336f"/>
+    <element xsi:type="archimate:AssociationRelationship" id="d9125290-5f95-4a8c-b100-040cdbf2d4c1" source="7b572521-cd4f-44ec-ba38-477e9c83334c" target="ff3a1e4a-93fe-4846-98eb-9be6afb7336f"/>
+    <element xsi:type="archimate:AggregationRelationship" name="Related collection of" id="55a4c45b-6cca-4501-900f-028a3bb74c3f" source="ff3a1e4a-93fe-4846-98eb-9be6afb7336f" target="a377b8b1-304f-473f-a236-7ceb55ba57b5">
+      <documentation>3.2 Contexts and resources</documentation>
+    </element>
+    <element xsi:type="archimate:SpecializationRelationship" id="53f8967b-c9dc-4018-bd2e-a531ecf1b67e" source="25c55254-70d5-43bf-a7e4-379b13278332" target="a377b8b1-304f-473f-a236-7ceb55ba57b5"/>
+    <element xsi:type="archimate:CompositionRelationship" id="6da38b6a-117e-485e-a441-5f4e24989f31" source="4fa1d494-6fbf-4dc4-8fbf-c00453ed8510" target="1459200a-7520-4156-b7fd-2613c1643999">
+      <documentation>3.2 Contexts and resources</documentation>
+    </element>
+    <element xsi:type="archimate:AggregationRelationship" name="References" id="376bc89c-a450-4e79-90ea-d527557986b1" source="1459200a-7520-4156-b7fd-2613c1643999" target="ff3a1e4a-93fe-4846-98eb-9be6afb7336f">
+      <documentation>3.2 Contexts and resources</documentation>
+    </element>
+    <element xsi:type="archimate:AggregationRelationship" name="References" id="ef3acebe-fc27-45bc-bb5d-d744e3549560" source="1fe7cf56-5c0d-4d3b-9296-e98e8418345c" target="a377b8b1-304f-473f-a236-7ceb55ba57b5">
+      <documentation>3.1.4 LTI Links</documentation>
+    </element>
+  </folder>
+  <folder name="Views" id="440e22ce-37a3-4685-b914-0273f14540f9" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Appendix A.2" id="d78fcdad-63d2-4888-8981-b1aba8acf704">
+      <child xsi:type="archimate:DiagramObject" id="8144ffed-f917-47fb-8c9d-8542ccbe89e1" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="8b36e5f5-94d5-4ab8-a498-30f3c1da28a1">
+        <bounds x="-552" y="276" width="912" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c9b492f3-ba6a-45a4-90fb-f83df5d1ca3b" source="8144ffed-f917-47fb-8c9d-8542ccbe89e1" target="51e6eb2c-c04d-47b6-8dfe-686b822d80fb" archimateRelationship="32b4ae19-7eb9-4f80-b061-3d0ddaf0a6cf"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e0260542-817a-436d-935a-6818f87b67f2" source="8144ffed-f917-47fb-8c9d-8542ccbe89e1" target="4e511e4f-38a7-41b1-97ac-c9322941f0d9" archimateRelationship="24b3ff8f-89af-4e9d-a759-2ec3e93937c2"/>
+        <sourceConnection xsi:type="archimate:Connection" id="f9822ac8-ce92-4bb4-825f-04a1a1d28b54" source="8144ffed-f917-47fb-8c9d-8542ccbe89e1" target="706211e4-0256-428a-84a2-55efcedd80da" archimateRelationship="cc56601f-ed47-47c8-a211-a3c461cdd485"/>
+        <sourceConnection xsi:type="archimate:Connection" id="04a51fb8-a265-48ed-be48-7e26b739a91e" source="8144ffed-f917-47fb-8c9d-8542ccbe89e1" target="54c846a0-d2bc-4ab3-b8b2-e8590db7d626" archimateRelationship="b847d71c-d19b-4bcc-afa5-6f4b88441e87"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b648ae2e-c35b-4e6e-82d7-758cfa74583d" source="8144ffed-f917-47fb-8c9d-8542ccbe89e1" target="45cbcee4-4088-4319-80b4-ce5dd98dd61b" archimateRelationship="bc90eb6c-2576-40a2-9268-eae8e174d859"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b6627f82-66c6-4f59-b002-2290e35a8f88" source="8144ffed-f917-47fb-8c9d-8542ccbe89e1" target="22772bde-4008-4098-83e2-98a52238b7dd" archimateRelationship="dba6017f-4d7c-48a5-9ebb-62b7d57bd6ac"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5f92ee97-7641-482b-9456-634f8e9af7f3" source="8144ffed-f917-47fb-8c9d-8542ccbe89e1" target="515ef75f-aefa-42a3-a3ad-254f35a3bbc0" archimateRelationship="3bfe144a-0f05-4dc9-94b0-21b13d4a83fe"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4bd12d69-9bf4-46d3-b30f-5aca52cc2f39" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="26653921-4d10-4a93-9607-2025cdf04ebb">
+        <bounds x="828" y="720" width="829" height="385"/>
+        <sourceConnection xsi:type="archimate:Connection" id="76a6a706-261b-4451-bda5-cc93a701b9c1" source="4bd12d69-9bf4-46d3-b30f-5aca52cc2f39" target="b0f17f19-58f8-4ea8-aa26-169a53434401" archimateRelationship="23d9d610-a7e9-42f2-87b6-3bf442f4a5d1"/>
+        <sourceConnection xsi:type="archimate:Connection" id="0c48a9f5-f27f-4257-93a6-70e22069332b" source="4bd12d69-9bf4-46d3-b30f-5aca52cc2f39" target="f4587cc3-7ead-4246-a39c-415c4078eea6" archimateRelationship="4cd2d5f6-3d02-4114-8de0-6eac07751770"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c6301b0d-8297-4417-80a7-3e7b4d7fcf8c" source="4bd12d69-9bf4-46d3-b30f-5aca52cc2f39" target="b699d3c1-0e11-4b1e-a8a9-bc5e0cb6f0bd" archimateRelationship="898cb89c-7418-48e9-add0-8a1d16470e43"/>
+        <child xsi:type="archimate:DiagramObject" id="b0f17f19-58f8-4ea8-aa26-169a53434401" targetConnections="76a6a706-261b-4451-bda5-cc93a701b9c1 0b2089b8-06ee-4435-897d-406f47840ca9" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="489cf90b-2d56-4b47-b737-63904224f38f">
+          <bounds x="24" y="48" width="169" height="85"/>
+          <sourceConnection xsi:type="archimate:Connection" id="231a60b0-5172-47e9-83d5-d8382138e300" source="b0f17f19-58f8-4ea8-aa26-169a53434401" target="0cf60a38-ae9e-418b-8cda-9a182d7cbb63" archimateRelationship="797e1674-0e7c-446b-adb1-9354ad0bdd4c">
+            <bendpoint startX="12" startY="-126" endX="990" endY="9"/>
+          </sourceConnection>
+          <child xsi:type="archimate:DiagramObject" id="0f0a8983-4e0d-424a-ab47-1ec129c89661" archimateElement="978d3457-8be7-490e-9a8f-df475a0a77cf">
+            <bounds x="12" y="36" width="120" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="0b2089b8-06ee-4435-897d-406f47840ca9" source="0f0a8983-4e0d-424a-ab47-1ec129c89661" target="b0f17f19-58f8-4ea8-aa26-169a53434401" archimateRelationship="56bfac24-6da9-44bb-84e3-7bb4b83f772e"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="f4587cc3-7ead-4246-a39c-415c4078eea6" targetConnections="0c48a9f5-f27f-4257-93a6-70e22069332b 2de496c0-c2fe-49f4-9c04-78d2d07c9c42 dcde8fb5-656a-4425-a5ad-c4b9e88cac55 bd87d2bc-8388-4e07-9d2c-a63d946ded62 652a98a3-0b35-4236-af01-0154e8045add 0e480ef2-fc94-41c8-abc3-9f9d28fedfb6" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="2d826e62-34a9-404a-a57c-353f287b1877">
+          <bounds x="240" y="48" width="289" height="301"/>
+          <sourceConnection xsi:type="archimate:Connection" id="99660b11-b126-4d73-9e35-20e8d11ef5b7" source="f4587cc3-7ead-4246-a39c-415c4078eea6" target="0cf60a38-ae9e-418b-8cda-9a182d7cbb63" archimateRelationship="1c72fc18-9379-468d-8027-ed5058070224">
+            <bendpoint startX="-72" startY="-246" endX="1182" endY="-3"/>
+          </sourceConnection>
+          <child xsi:type="archimate:DiagramObject" id="305ee2bd-4a85-4618-9747-9d4ffde5edbd" textAlignment="1" archimateElement="a8e3a9ae-7fb1-4c53-97f2-a67c276702e8">
+            <bounds x="12" y="36" width="181" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="2de496c0-c2fe-49f4-9c04-78d2d07c9c42" source="305ee2bd-4a85-4618-9747-9d4ffde5edbd" target="f4587cc3-7ead-4246-a39c-415c4078eea6" archimateRelationship="08cfc363-24c2-477d-b412-3bf51c5cd9a1"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="0b60b0ac-03cd-4c28-b520-26864f194c56" textAlignment="1" archimateElement="10013bba-8cb2-4f0f-aeeb-bf20aed2cf50">
+            <bounds x="12" y="72" width="181" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="dcde8fb5-656a-4425-a5ad-c4b9e88cac55" source="0b60b0ac-03cd-4c28-b520-26864f194c56" target="f4587cc3-7ead-4246-a39c-415c4078eea6" archimateRelationship="d1d2904e-c543-46f9-b8ff-39f0a7f38ff8"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="5eb5156e-d2bf-452e-a75d-c4ad35664974" textAlignment="1" archimateElement="20abe8a4-d098-4a60-9db2-908b3b563abe">
+            <bounds x="12" y="108" width="181" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="bd87d2bc-8388-4e07-9d2c-a63d946ded62" source="5eb5156e-d2bf-452e-a75d-c4ad35664974" target="f4587cc3-7ead-4246-a39c-415c4078eea6" archimateRelationship="30c6fbb2-2579-489b-bd95-930667fc6485"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="11e4986f-a07f-4ee9-8a7c-e8d9bb4e7efb" textAlignment="1" archimateElement="2fcc65c2-1760-47d1-aae3-95c55a37c9f3">
+            <bounds x="12" y="144" width="181" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="652a98a3-0b35-4236-af01-0154e8045add" source="11e4986f-a07f-4ee9-8a7c-e8d9bb4e7efb" target="f4587cc3-7ead-4246-a39c-415c4078eea6" archimateRelationship="e7f4608d-1891-4731-9414-1844719e6fca"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="acfc8305-97f8-4610-a11c-e1fd1a58cf80" textAlignment="1" archimateElement="f7a7277f-e4d7-44e5-a3a5-4fb0ed27f84f">
+            <bounds x="12" y="180" width="181" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="0e480ef2-fc94-41c8-abc3-9f9d28fedfb6" source="acfc8305-97f8-4610-a11c-e1fd1a58cf80" target="f4587cc3-7ead-4246-a39c-415c4078eea6" archimateRelationship="cc929435-feeb-4797-91b7-ac6e5b672bd8"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="b699d3c1-0e11-4b1e-a8a9-bc5e0cb6f0bd" targetConnections="c6301b0d-8297-4417-80a7-3e7b4d7fcf8c 0abec5f7-c346-4a6c-a426-cc2cca75f495 98f5f1e9-5413-4ff0-832a-1c5dd2fc197b bcf7136d-26c2-4a72-9971-4c772b541d2c b93b3903-0222-4718-89d2-126e43ec347c d6a35d27-605c-418d-bf29-936b399d206f" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="a6efeb28-1bde-4203-9436-40e5df1d31d4">
+          <bounds x="576" y="48" width="241" height="301"/>
+          <sourceConnection xsi:type="archimate:Connection" id="c24f4ee0-f396-4600-9a6b-57b3242f946f" source="b699d3c1-0e11-4b1e-a8a9-bc5e0cb6f0bd" target="0cf60a38-ae9e-418b-8cda-9a182d7cbb63" archimateRelationship="6f5f3ad2-54af-41d3-9b05-f9a005b330a6">
+            <bendpoint startY="-258" endX="1566" endY="-15"/>
+          </sourceConnection>
+          <child xsi:type="archimate:DiagramObject" id="0669bbd9-5830-4420-96bf-2134fe5593a1" textAlignment="1" archimateElement="2a34cc5d-e547-4153-b813-37f9f6439463">
+            <bounds x="12" y="36" width="205" height="27"/>
+            <sourceConnection xsi:type="archimate:Connection" id="0abec5f7-c346-4a6c-a426-cc2cca75f495" source="0669bbd9-5830-4420-96bf-2134fe5593a1" target="b699d3c1-0e11-4b1e-a8a9-bc5e0cb6f0bd" archimateRelationship="503f2f6e-0e13-422d-a942-bd1d7bc9a673"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="6bfe8c31-d43e-4f8d-92fd-63470b360a7c" textAlignment="1" archimateElement="f3a258dc-05ee-4c21-a587-c6403162e312">
+            <bounds x="12" y="72" width="205" height="27"/>
+            <sourceConnection xsi:type="archimate:Connection" id="98f5f1e9-5413-4ff0-832a-1c5dd2fc197b" source="6bfe8c31-d43e-4f8d-92fd-63470b360a7c" target="b699d3c1-0e11-4b1e-a8a9-bc5e0cb6f0bd" archimateRelationship="a444a3c7-db9f-4964-b70c-848f5897fb88"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="632f2b9c-6173-4908-b9d5-669c5ef74f66" textAlignment="1" archimateElement="461ef975-f946-41b4-aa5f-806884e45355">
+            <bounds x="12" y="108" width="205" height="27"/>
+            <sourceConnection xsi:type="archimate:Connection" id="bcf7136d-26c2-4a72-9971-4c772b541d2c" source="632f2b9c-6173-4908-b9d5-669c5ef74f66" target="b699d3c1-0e11-4b1e-a8a9-bc5e0cb6f0bd" archimateRelationship="2b425dec-36c3-4507-b60d-8f424bb1ee04"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="136b1246-0fc3-4448-ab7a-2577e4309f14" textAlignment="1" archimateElement="f336f615-68e2-4012-9b77-0af6c51e2d00">
+            <bounds x="12" y="144" width="205" height="27"/>
+            <sourceConnection xsi:type="archimate:Connection" id="b93b3903-0222-4718-89d2-126e43ec347c" source="136b1246-0fc3-4448-ab7a-2577e4309f14" target="b699d3c1-0e11-4b1e-a8a9-bc5e0cb6f0bd" archimateRelationship="28f4578c-4ac1-4e8d-a2b4-933fe6f19cfd"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="1ec65657-f1fb-489b-94f4-016122a7c7e0" textAlignment="1" archimateElement="a3f67bbe-6703-4336-855a-9303c0106298">
+            <bounds x="12" y="180" width="205" height="27"/>
+            <sourceConnection xsi:type="archimate:Connection" id="d6a35d27-605c-418d-bf29-936b399d206f" source="1ec65657-f1fb-489b-94f4-016122a7c7e0" target="b699d3c1-0e11-4b1e-a8a9-bc5e0cb6f0bd" archimateRelationship="9c3fe13f-4a4d-4917-bd95-b7fb657d26f6"/>
+          </child>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="70f90e54-d326-4dcb-925f-b9d7a1e05158" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="b363687d-61f0-4c99-8788-6d29a29b5e37">
+        <bounds x="-552" y="720" width="1333" height="529"/>
+        <sourceConnection xsi:type="archimate:Connection" id="d1e0d96e-3a41-44bf-b768-dbf0b97a98c6" source="70f90e54-d326-4dcb-925f-b9d7a1e05158" target="82ff5d10-9399-4bda-b119-72d0e9756d21" archimateRelationship="2565233a-863e-4f7f-a00e-730639940206"/>
+        <sourceConnection xsi:type="archimate:Connection" id="1ff0069c-0b57-4f20-ac58-f68201f0c3dd" source="70f90e54-d326-4dcb-925f-b9d7a1e05158" target="ac80dcff-f7c2-4631-bd81-454c42a6dad6" archimateRelationship="133ea10b-c664-43c1-b273-66c8ba0cbef7"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a5920463-ce6f-4663-b959-34a9d2289b03" source="70f90e54-d326-4dcb-925f-b9d7a1e05158" target="0d752a81-cb93-4c06-8a27-5602559667b5" archimateRelationship="4daed9e1-5a50-4b23-bd8c-275e83a94709"/>
+        <sourceConnection xsi:type="archimate:Connection" id="47c9b2c8-e00f-4937-8daf-3b282ca6fb7c" source="70f90e54-d326-4dcb-925f-b9d7a1e05158" target="53cfdb25-85ba-428a-b975-4bd68e76d445" archimateRelationship="fab60b98-6a2b-4aed-af40-554da7ffb157"/>
+        <sourceConnection xsi:type="archimate:Connection" id="897e62ad-d5d8-44bf-ab00-ff7f6e79b4d0" source="70f90e54-d326-4dcb-925f-b9d7a1e05158" target="fc2013d9-069e-4cc9-8d5e-ee3c984df231" archimateRelationship="9c189123-57d0-4b1d-ab62-b2fdac46eb15"/>
+        <child xsi:type="archimate:DiagramObject" id="82ff5d10-9399-4bda-b119-72d0e9756d21" targetConnections="d1e0d96e-3a41-44bf-b768-dbf0b97a98c6 8ce08e53-81fa-4c4e-bcd7-703f93a3c600 0a477e50-592a-4f3e-800a-8bfc27a10c7d f55adca2-089c-4841-9c0c-4b1554a3d97c f9ff9a4a-ad19-4738-9b94-8a3232a78bd7 b55c6c04-13d2-4136-9bb0-919056d643ea 8689f47f-056c-4463-ad53-ac2bcb4562de fe8d5149-6478-493a-a440-dbb81a47a0d7" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="7bd28cfd-bb7d-4ecb-bf83-b0cce6a564d2">
+          <bounds x="24" y="48" width="229" height="301"/>
+          <sourceConnection xsi:type="archimate:Connection" id="810ccc07-3c94-46a7-8b4d-969b013ae9a7" source="82ff5d10-9399-4bda-b119-72d0e9756d21" target="0cf60a38-ae9e-418b-8cda-9a182d7cbb63" archimateRelationship="80f102ff-d960-4bfb-9ce1-c21d80cc80a9"/>
+          <child xsi:type="archimate:DiagramObject" id="0b908b8d-1e12-4e68-bbd2-ed88ff9ed42a" textAlignment="1" archimateElement="ca8a952a-1a8f-42de-a1f3-679fb65ebf37">
+            <bounds x="12" y="144" width="186" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="f9ff9a4a-ad19-4738-9b94-8a3232a78bd7" source="0b908b8d-1e12-4e68-bbd2-ed88ff9ed42a" target="82ff5d10-9399-4bda-b119-72d0e9756d21" archimateRelationship="61980897-30de-4bdf-aa5b-dde30c0c6ccf"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="5ed76c33-dda2-4403-a613-93ba1298c501" textAlignment="1" archimateElement="8df16f41-def3-40af-95e0-6f31a55aba40">
+            <bounds x="12" y="180" width="186" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="b55c6c04-13d2-4136-9bb0-919056d643ea" source="5ed76c33-dda2-4403-a613-93ba1298c501" target="82ff5d10-9399-4bda-b119-72d0e9756d21" archimateRelationship="c5f35890-7a02-4e28-8c90-96e26df7f44b"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="776c63da-cd95-4f08-8f12-5188dd31b053" textAlignment="1" archimateElement="07f2274d-ff30-4057-80da-ecb2b3a3a7d3">
+            <bounds x="12" y="36" width="186" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="8ce08e53-81fa-4c4e-bcd7-703f93a3c600" source="776c63da-cd95-4f08-8f12-5188dd31b053" target="82ff5d10-9399-4bda-b119-72d0e9756d21" archimateRelationship="bfcd99dd-062a-49c4-b133-113a19468f85"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="782263c2-1fcd-469d-bade-28de05abb093" textAlignment="1" archimateElement="1caeb37a-8aa5-4554-bebc-4e4b0c0a7ed7">
+            <bounds x="12" y="216" width="186" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="8689f47f-056c-4463-ad53-ac2bcb4562de" source="782263c2-1fcd-469d-bade-28de05abb093" target="82ff5d10-9399-4bda-b119-72d0e9756d21" archimateRelationship="9a50a4c7-ecc0-477c-bc28-ee2b5dc859bf"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="ec322c3f-b20f-4785-8010-f15f46149c98" textAlignment="1" archimateElement="3ce7efaa-7457-4179-a938-8312f18a5acf">
+            <bounds x="12" y="108" width="186" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="f55adca2-089c-4841-9c0c-4b1554a3d97c" source="ec322c3f-b20f-4785-8010-f15f46149c98" target="82ff5d10-9399-4bda-b119-72d0e9756d21" archimateRelationship="5acae493-a724-4d17-8513-f116824f6457"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="e5b5b749-fb8b-4148-8de9-7f385dd8bc6d" textAlignment="1" archimateElement="8feb355d-d9d3-4fee-ab60-bd925d7b095b">
+            <bounds x="12" y="72" width="186" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="0a477e50-592a-4f3e-800a-8bfc27a10c7d" source="e5b5b749-fb8b-4148-8de9-7f385dd8bc6d" target="82ff5d10-9399-4bda-b119-72d0e9756d21" archimateRelationship="d125c42a-fb41-4093-bc13-3ae293324b16"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="f747188e-6cac-4af9-a179-fd86941018d5" textAlignment="1" archimateElement="2e315477-d282-425c-ada4-0bc207269afe">
+            <bounds x="12" y="252" width="186" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="fe8d5149-6478-493a-a440-dbb81a47a0d7" source="f747188e-6cac-4af9-a179-fd86941018d5" target="82ff5d10-9399-4bda-b119-72d0e9756d21" archimateRelationship="94cb5f4a-a8c0-40c5-8e37-7c78ded93df0"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="ac80dcff-f7c2-4631-bd81-454c42a6dad6" targetConnections="1ff0069c-0b57-4f20-ac58-f68201f0c3dd 4e1fa326-727b-4281-83b6-6ef5751bde2c d146dd44-6573-4867-86e3-e823971e6a5b 30d0d667-5835-4e3a-b135-0ed80bacd00f 98806c29-73af-495a-83de-06c94cfc6136 16868c25-6f7f-4e6c-b272-0d3ccb2a7a84" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="e7a41723-5f91-40e6-8a5d-2de55dc0ea39">
+          <bounds x="276" y="48" width="205" height="301"/>
+          <sourceConnection xsi:type="archimate:Connection" id="15798a11-242a-40d0-94c9-7d7b0f1138e9" source="ac80dcff-f7c2-4631-bd81-454c42a6dad6" target="0cf60a38-ae9e-418b-8cda-9a182d7cbb63" archimateRelationship="eb06fe4a-d0b2-46c0-9807-8c5efc072351"/>
+          <child xsi:type="archimate:DiagramObject" id="3652c941-90c3-4440-bc3d-57287aacd7df" textAlignment="1" archimateElement="ae9c0f61-11b6-4842-a689-07ade00f236a">
+            <bounds x="12" y="72" width="169" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="4e1fa326-727b-4281-83b6-6ef5751bde2c" source="3652c941-90c3-4440-bc3d-57287aacd7df" target="ac80dcff-f7c2-4631-bd81-454c42a6dad6" archimateRelationship="ce3e9e52-2b10-43d6-96a3-576129a2bcf3"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="884a763d-e560-4df7-8104-bbfea141951e" textAlignment="1" archimateElement="065abbb0-f6cc-40d9-b764-02bae4a3d255">
+            <bounds x="12" y="108" width="169" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="d146dd44-6573-4867-86e3-e823971e6a5b" source="884a763d-e560-4df7-8104-bbfea141951e" target="ac80dcff-f7c2-4631-bd81-454c42a6dad6" archimateRelationship="9610045a-7ae7-4750-a972-6ce7eb36e35b"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="c4bbf15c-ac13-4b5c-a49e-ad4d5c80b5e6" textAlignment="1" archimateElement="5170ac6b-16cc-44e1-804a-4b296258e9bf">
+            <bounds x="12" y="144" width="169" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="30d0d667-5835-4e3a-b135-0ed80bacd00f" source="c4bbf15c-ac13-4b5c-a49e-ad4d5c80b5e6" target="ac80dcff-f7c2-4631-bd81-454c42a6dad6" archimateRelationship="083b8377-acfa-495c-bf4d-6efc029bbd84"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="dcd22c18-5319-4b79-90e6-f9e0d3eb20fb" textAlignment="1" archimateElement="66516bac-0725-4e1f-898b-c9b612e95894">
+            <bounds x="12" y="36" width="169" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="16868c25-6f7f-4e6c-b272-0d3ccb2a7a84" source="dcd22c18-5319-4b79-90e6-f9e0d3eb20fb" target="ac80dcff-f7c2-4631-bd81-454c42a6dad6" archimateRelationship="8f651bf1-038a-4031-92da-3a39a0e4927a"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="47680d98-29be-4efa-b6fc-c7e3728c87bd" textAlignment="1" archimateElement="5b77d8fb-570d-419a-98dd-69246e08b2c3">
+            <bounds x="12" y="180" width="169" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="98806c29-73af-495a-83de-06c94cfc6136" source="47680d98-29be-4efa-b6fc-c7e3728c87bd" target="ac80dcff-f7c2-4631-bd81-454c42a6dad6" archimateRelationship="22c7c5ab-8e87-4cab-9cfc-c8e8abb60b1b"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="0d752a81-cb93-4c06-8a27-5602559667b5" targetConnections="a5920463-ce6f-4663-b959-34a9d2289b03 cec55cb9-3b4b-4466-afea-9b518f26efa0 262ef21a-699f-4c2e-9ae3-7df7ef3fa6c6 6aa39004-3b8b-4c33-8218-252b4137dfa3 58876044-692d-4018-b298-4807a13dae0e" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="4af65f7d-be6b-4288-a79d-8d52e7dd25ac">
+          <bounds x="504" y="48" width="217" height="301"/>
+          <sourceConnection xsi:type="archimate:Connection" id="5b1b4441-636d-4b9f-9b3a-de41df13a287" source="0d752a81-cb93-4c06-8a27-5602559667b5" target="0cf60a38-ae9e-418b-8cda-9a182d7cbb63" archimateRelationship="bdc9c8e1-3037-4193-b6bc-d016edf4d91d"/>
+          <child xsi:type="archimate:DiagramObject" id="c1918e4f-9bdb-4b07-b12d-3253f2f35b41" textAlignment="1" archimateElement="663689f9-f6b1-461e-a3cc-8322a675bbbe">
+            <bounds x="24" y="144" width="169" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="cec55cb9-3b4b-4466-afea-9b518f26efa0" source="c1918e4f-9bdb-4b07-b12d-3253f2f35b41" target="0d752a81-cb93-4c06-8a27-5602559667b5" archimateRelationship="79620ee5-2c5d-4033-a53b-e5d5e581a5be"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="a17965fe-8a67-4744-bd42-03cbbfea092a" textAlignment="1" archimateElement="6f4fdf01-16f8-42b8-8cc4-1c2626299fce">
+            <bounds x="24" y="36" width="169" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="262ef21a-699f-4c2e-9ae3-7df7ef3fa6c6" source="a17965fe-8a67-4744-bd42-03cbbfea092a" target="0d752a81-cb93-4c06-8a27-5602559667b5" archimateRelationship="2ecefd54-fa9d-4c49-9620-6edcbe78e39f"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="b18ab97d-c63b-4685-bbd6-4187afab4b3b" textAlignment="1" archimateElement="757e172b-379e-4e75-8c72-e087cf1471fb">
+            <bounds x="24" y="72" width="169" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="6aa39004-3b8b-4c33-8218-252b4137dfa3" source="b18ab97d-c63b-4685-bbd6-4187afab4b3b" target="0d752a81-cb93-4c06-8a27-5602559667b5" archimateRelationship="6fd91970-e3a5-4d67-8067-157b818aa8a0"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="5a121b89-e2ae-4537-bbf6-ea28bab52911" textAlignment="1" archimateElement="82eb7ac1-30e7-4b55-8a04-247f5ad1954a">
+            <bounds x="24" y="108" width="169" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="58876044-692d-4018-b298-4807a13dae0e" source="5a121b89-e2ae-4537-bbf6-ea28bab52911" target="0d752a81-cb93-4c06-8a27-5602559667b5" archimateRelationship="e7e8880b-db1a-45d3-ad95-6129b491a2f4"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="53cfdb25-85ba-428a-b975-4bd68e76d445" targetConnections="47c9b2c8-e00f-4937-8daf-3b282ca6fb7c 10bdddb9-3012-4908-a19d-d8bc80c4570f 2c5a479d-4d78-485f-a4b5-7e589efcbf31 fc9824e4-3302-4240-b5b1-3eae22cb0cc5 0f9a9cfb-d5a8-4c52-bdeb-619b813ab110 402c7fcd-5166-4127-9d47-d93340d22fa4 78090a2d-b930-42de-afc8-f56437112247 99ec9484-3822-4873-a48e-44a59fdb9f5c 11c5cb21-1d6e-492c-8a81-7c8a134e7bdf 31de563c-080a-486c-8efb-55e6dd13af2c bc7a9d1f-289b-4480-8580-1c16ee25f211 cad3ee47-0cdc-4fc2-8275-08e6c36cd3c8 9a95d016-4c22-4129-97b2-9e479a05e706" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="3837f02f-7193-416b-98f0-8c068d90e113">
+          <bounds x="732" y="48" width="229" height="469"/>
+          <sourceConnection xsi:type="archimate:Connection" id="43ebd2cd-020f-4e13-af09-8ffdd8e0a148" source="53cfdb25-85ba-428a-b975-4bd68e76d445" target="0cf60a38-ae9e-418b-8cda-9a182d7cbb63" archimateRelationship="52a5b6a6-4c95-4b94-bbb6-c41caf039275"/>
+          <child xsi:type="archimate:DiagramObject" id="5b346bf8-e757-4cf8-b0fb-a3228f66b004" textAlignment="1" archimateElement="2c16cb55-457c-4b32-82e9-2bc9cf89598d">
+            <bounds x="12" y="36" width="193" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="10bdddb9-3012-4908-a19d-d8bc80c4570f" source="5b346bf8-e757-4cf8-b0fb-a3228f66b004" target="53cfdb25-85ba-428a-b975-4bd68e76d445" archimateRelationship="ce678d3f-7382-461e-8ba7-d3d31249b92c"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="61c49dab-535d-4b6e-9f80-10e279543b90" textAlignment="1" archimateElement="8f78e398-576b-434b-abee-8b883a835d2d">
+            <bounds x="12" y="180" width="193" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="2c5a479d-4d78-485f-a4b5-7e589efcbf31" source="61c49dab-535d-4b6e-9f80-10e279543b90" target="53cfdb25-85ba-428a-b975-4bd68e76d445" archimateRelationship="1030accc-2078-4b21-a7df-7d92e79a507a"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="e0f8b424-bd26-4db2-b63f-b52afcb793a2" textAlignment="1" archimateElement="155da350-6358-43ac-8a28-d8c036b434e2">
+            <bounds x="12" y="288" width="193" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="fc9824e4-3302-4240-b5b1-3eae22cb0cc5" source="e0f8b424-bd26-4db2-b63f-b52afcb793a2" target="53cfdb25-85ba-428a-b975-4bd68e76d445" archimateRelationship="0f755319-1e05-4c9f-81fd-5dc16c417eb7"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="8569bb0c-3f08-42eb-ad28-54d8bbb36c58" textAlignment="1" archimateElement="268181ee-64b9-44b0-96dc-b102dc0b1f78">
+            <bounds x="12" y="216" width="193" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="0f9a9cfb-d5a8-4c52-bdeb-619b813ab110" source="8569bb0c-3f08-42eb-ad28-54d8bbb36c58" target="53cfdb25-85ba-428a-b975-4bd68e76d445" archimateRelationship="16c8273b-febd-4e42-95ac-3caec8303ec4"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="9c31f909-9a29-4226-b661-941242eacbd8" textAlignment="1" archimateElement="326069ce-5d99-487e-a3c7-9639cd72c8a0">
+            <bounds x="12" y="324" width="193" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="402c7fcd-5166-4127-9d47-d93340d22fa4" source="9c31f909-9a29-4226-b661-941242eacbd8" target="53cfdb25-85ba-428a-b975-4bd68e76d445" archimateRelationship="575e3b8b-cb65-4890-bb39-857809ef57b5"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="e1aeaac7-a50a-40da-90a9-2c81375fb228" textAlignment="1" archimateElement="9111ebc2-7b98-49c1-a5a3-fa7a0ff8416c">
+            <bounds x="12" y="144" width="193" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="78090a2d-b930-42de-afc8-f56437112247" source="e1aeaac7-a50a-40da-90a9-2c81375fb228" target="53cfdb25-85ba-428a-b975-4bd68e76d445" archimateRelationship="7659fbd1-fdfa-477c-92f9-b00debb3b10e"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="df23b300-371a-4682-bb3d-4fe8360d5898" textAlignment="1" archimateElement="2233a7a7-73d6-4e06-805f-a578f495c3ef">
+            <bounds x="12" y="108" width="193" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="99ec9484-3822-4873-a48e-44a59fdb9f5c" source="df23b300-371a-4682-bb3d-4fe8360d5898" target="53cfdb25-85ba-428a-b975-4bd68e76d445" archimateRelationship="aafabd04-88ac-49b7-9e29-6aa02310ff35"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="f2759b55-9c0b-4478-9279-576f9e897166" textAlignment="1" archimateElement="5f90781d-5f15-4e71-a8d3-2bc69a2f5a33">
+            <bounds x="12" y="252" width="193" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="11c5cb21-1d6e-492c-8a81-7c8a134e7bdf" source="f2759b55-9c0b-4478-9279-576f9e897166" target="53cfdb25-85ba-428a-b975-4bd68e76d445" archimateRelationship="4235bd13-4a3e-435f-a9d6-d443dc406269"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="6ea48d8b-963a-4ccd-bcf3-d52ceeeb4043" textAlignment="1" archimateElement="1c604e7f-731f-4f82-8334-00afa0d1ba43">
+            <bounds x="12" y="72" width="193" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="31de563c-080a-486c-8efb-55e6dd13af2c" source="6ea48d8b-963a-4ccd-bcf3-d52ceeeb4043" target="53cfdb25-85ba-428a-b975-4bd68e76d445" archimateRelationship="431ff761-275a-420a-86e1-8a3e309ed22c"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="9da85d20-031f-4a44-bd7c-4a1301455dc0" textAlignment="1" archimateElement="e10452fd-2fc7-49f0-9820-19abe567985b">
+            <bounds x="12" y="360" width="193" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="bc7a9d1f-289b-4480-8580-1c16ee25f211" source="9da85d20-031f-4a44-bd7c-4a1301455dc0" target="53cfdb25-85ba-428a-b975-4bd68e76d445" archimateRelationship="35cac659-449f-488c-9dca-fcf3bd8d6ee3"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="4beb11aa-6008-41bb-a578-ca6814c2ad6a" textAlignment="1" archimateElement="dec3ea2c-71f4-4cb7-83e1-16b087f8a3b7">
+            <bounds x="12" y="396" width="193" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="cad3ee47-0cdc-4fc2-8275-08e6c36cd3c8" source="4beb11aa-6008-41bb-a578-ca6814c2ad6a" target="53cfdb25-85ba-428a-b975-4bd68e76d445" archimateRelationship="53fe1f9c-dfe8-4015-9968-06235d32eaf3"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="0756baf5-26a9-4f6a-814d-043d6869f508" textAlignment="1" archimateElement="32fb1eef-5619-4b71-a505-bb508cb06b89">
+            <bounds x="12" y="432" width="193" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="9a95d016-4c22-4129-97b2-9e479a05e706" source="0756baf5-26a9-4f6a-814d-043d6869f508" target="53cfdb25-85ba-428a-b975-4bd68e76d445" archimateRelationship="98a960fc-4cc1-43b0-99d2-065261fa0bd7"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="fc2013d9-069e-4cc9-8d5e-ee3c984df231" targetConnections="897e62ad-d5d8-44bf-ab00-ff7f6e79b4d0 361d0f38-7b50-4569-a4c9-fb033011d7f9 05b12a9c-ff4b-40f0-8c7f-3500f08ea365 8b215f43-714d-45e1-a45c-414eb9b8dbe3 6860b3b7-bc0f-4808-81b6-2e337700cd13 d1d27444-babb-44da-bb0e-84cb1c784167 d30657ff-b6ef-46be-88bf-a9ba3751302e d6df9b55-95ba-4533-918f-266ee97d824e bfb17553-1090-4488-a38f-c2cf4527c0d6 74f55b8e-90df-4018-8a59-08d122b43b55 70c0c610-47dc-416c-8a9a-140525c7284a f1ab568c-3e48-4fc7-ae1a-3935af61e76c" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="3e9828e5-db2f-4df0-bea5-17c9fcc5d3d2">
+          <bounds x="984" y="48" width="289" height="469"/>
+          <sourceConnection xsi:type="archimate:Connection" id="6a5436e0-f5f2-48a4-8d65-28ec8950eaa7" source="fc2013d9-069e-4cc9-8d5e-ee3c984df231" target="0cf60a38-ae9e-418b-8cda-9a182d7cbb63" archimateRelationship="76830216-0553-4541-a70e-c267187105b8"/>
+          <sourceConnection xsi:type="archimate:Connection" id="3d47388a-82ca-4fb8-bf75-03316da9a3ad" source="fc2013d9-069e-4cc9-8d5e-ee3c984df231" target="8e13eb4e-1c4e-4f92-97be-5e6c5981e11d" archimateRelationship="3a976ddf-4a64-438c-914a-6c470428ad10"/>
+          <child xsi:type="archimate:DiagramObject" id="d4f82778-e91c-4689-8742-f085bcbf4814" textAlignment="1" archimateElement="25cfdd14-065f-4e06-b9ed-d8c89b40342b">
+            <bounds x="12" y="432" width="253" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="361d0f38-7b50-4569-a4c9-fb033011d7f9" source="d4f82778-e91c-4689-8742-f085bcbf4814" target="fc2013d9-069e-4cc9-8d5e-ee3c984df231" archimateRelationship="4e71ab31-8063-4b7d-8b9f-af8bcfd22ed2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="390db23e-0a19-452f-8f83-eb7ab10db1da" textAlignment="1" archimateElement="2f353c44-f8d1-40c3-b121-3f17881f43bf">
+            <bounds x="12" y="36" width="253" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="05b12a9c-ff4b-40f0-8c7f-3500f08ea365" source="390db23e-0a19-452f-8f83-eb7ab10db1da" target="fc2013d9-069e-4cc9-8d5e-ee3c984df231" archimateRelationship="4176987b-3596-445e-a7af-1a3f88c4adb2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="1d87b461-7ffe-4a22-8e9a-b2c85b3c9aaa" textAlignment="1" archimateElement="5664370d-b221-490c-9b48-579f463c4af5">
+            <bounds x="12" y="180" width="253" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="8b215f43-714d-45e1-a45c-414eb9b8dbe3" source="1d87b461-7ffe-4a22-8e9a-b2c85b3c9aaa" target="fc2013d9-069e-4cc9-8d5e-ee3c984df231" archimateRelationship="84988894-0144-40d0-8862-dfff72fead53"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="d8aa7e6e-ab1b-4d4e-9556-e318df684944" textAlignment="1" archimateElement="8c5ee72a-cdd2-4ebd-a507-afb8d50aab22">
+            <bounds x="12" y="72" width="253" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="6860b3b7-bc0f-4808-81b6-2e337700cd13" source="d8aa7e6e-ab1b-4d4e-9556-e318df684944" target="fc2013d9-069e-4cc9-8d5e-ee3c984df231" archimateRelationship="f4d0e26c-6090-488d-8f31-f243e913d61b"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="c0d48a42-6b94-4f01-9c11-b819c456a7ba" textAlignment="1" archimateElement="71efb133-4547-4bff-960a-e89cd4b0161d">
+            <bounds x="12" y="216" width="253" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="d1d27444-babb-44da-bb0e-84cb1c784167" source="c0d48a42-6b94-4f01-9c11-b819c456a7ba" target="fc2013d9-069e-4cc9-8d5e-ee3c984df231" archimateRelationship="0cb399c7-db3f-4fd8-8110-0315451017ee"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="fb455f1f-5413-476d-8eb5-67071d7b374d" textAlignment="1" archimateElement="e31663a3-6849-48ad-9388-09cc07a506b6">
+            <bounds x="12" y="108" width="253" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="d30657ff-b6ef-46be-88bf-a9ba3751302e" source="fb455f1f-5413-476d-8eb5-67071d7b374d" target="fc2013d9-069e-4cc9-8d5e-ee3c984df231" archimateRelationship="9e170968-4081-43eb-8078-55e2c9075315"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="60725a48-a5a5-4a92-92aa-576cad0f941e" textAlignment="1" archimateElement="eebab113-f617-4cd3-9f8c-09854aa0c593">
+            <bounds x="12" y="360" width="253" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="d6df9b55-95ba-4533-918f-266ee97d824e" source="60725a48-a5a5-4a92-92aa-576cad0f941e" target="fc2013d9-069e-4cc9-8d5e-ee3c984df231" archimateRelationship="75327bf8-dd69-4744-9b04-342f1546b8e1"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="b627e01e-12fb-4e73-b924-b8c574ff82d7" textAlignment="1" archimateElement="c53d7e70-d4f1-489c-965d-9311a398a373">
+            <bounds x="12" y="252" width="253" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="bfb17553-1090-4488-a38f-c2cf4527c0d6" source="b627e01e-12fb-4e73-b924-b8c574ff82d7" target="fc2013d9-069e-4cc9-8d5e-ee3c984df231" archimateRelationship="c7f1eb6d-8ecf-4a90-a50d-aa74d0b60037"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="b061fee9-bf16-441a-91c7-eafbe81f9f95" textAlignment="1" archimateElement="8dcf8e33-26fb-46f6-8253-2a6ad47aca2f">
+            <bounds x="12" y="288" width="253" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="74f55b8e-90df-4018-8a59-08d122b43b55" source="b061fee9-bf16-441a-91c7-eafbe81f9f95" target="fc2013d9-069e-4cc9-8d5e-ee3c984df231" archimateRelationship="ed34e2af-74c1-4f1c-88bf-c33e8e4cd5b2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="8e13eb4e-1c4e-4f92-97be-5e6c5981e11d" targetConnections="3d47388a-82ca-4fb8-bf75-03316da9a3ad" textAlignment="1" archimateElement="1594c5a4-723e-4cdc-b052-00d47f5283f7">
+            <bounds x="12" y="396" width="253" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="c7dc72a1-6ce2-4469-b5be-b3908be50f2f" textAlignment="1" archimateElement="64dd186e-4151-48df-9439-2cfb135df8b5">
+            <bounds x="12" y="144" width="253" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="70c0c610-47dc-416c-8a9a-140525c7284a" source="c7dc72a1-6ce2-4469-b5be-b3908be50f2f" target="fc2013d9-069e-4cc9-8d5e-ee3c984df231" archimateRelationship="9e8bf4f2-4f7f-45f9-9f65-4f00e3378c3b"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="788ad74a-4939-401c-91e1-7de626e30003" textAlignment="1" archimateElement="9c04640b-6eec-4cf4-b52d-ed4a2e4ecca4">
+            <bounds x="12" y="324" width="253" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="f1ab568c-3e48-4fc7-ae1a-3935af61e76c" source="788ad74a-4939-401c-91e1-7de626e30003" target="fc2013d9-069e-4cc9-8d5e-ee3c984df231" archimateRelationship="7892d2fa-4980-4e4b-bdc5-eb09632b6583"/>
+          </child>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4eedc492-463e-4718-b640-2287aed6bc68" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="fcc22f62-c06f-4476-a894-bae18a03e88d">
+        <bounds x="-552" y="48" width="264" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="958fcce4-39ca-432a-88c8-4cfc5d29ef7c" source="4eedc492-463e-4718-b640-2287aed6bc68" target="1e0de966-b814-4d93-aa05-4d82d4032abd" archimateRelationship="9668b67e-0014-493c-888f-4fdd1e5affde"/>
+        <sourceConnection xsi:type="archimate:Connection" id="fb39ed24-d854-46a4-b459-d4097db34c7b" source="4eedc492-463e-4718-b640-2287aed6bc68" target="db1794d7-fd0e-4768-ba3d-1a86cee9d15a" archimateRelationship="e3cb4e6b-4bc9-4dad-942f-736433d06c15"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ea6fe8ca-4af9-467b-80f6-990017cd678c" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="a128ee0b-3241-4e82-b4fc-4727399cc0f7">
+        <bounds x="-216" y="48" width="648" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ef714cdf-c845-4247-97bf-d685741d44fa" source="ea6fe8ca-4af9-467b-80f6-990017cd678c" target="fe313a0a-8c6f-4093-8aa6-c792251dd858" archimateRelationship="57c589e9-ebf1-4179-b966-e907c270284a"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ca612e93-da29-483a-8c18-336f12fbd9ee" source="ea6fe8ca-4af9-467b-80f6-990017cd678c" target="da2b43dd-46c8-4e62-94f6-f3e0141e61f9" archimateRelationship="593866b0-3e26-4245-b25f-ae4d6a687516"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b5e7354f-b8d7-4875-85f2-84c9ae28f89a" source="ea6fe8ca-4af9-467b-80f6-990017cd678c" target="d6f2943e-a60d-41ca-b263-fdfcea9fb749" archimateRelationship="3d08d0e0-5b1e-4715-addf-c49f036d3793"/>
+        <sourceConnection xsi:type="archimate:Connection" id="9a6e3ab6-2be3-4c24-9ae3-310f9ef3e421" source="ea6fe8ca-4af9-467b-80f6-990017cd678c" target="192b77d3-621a-40ea-bc02-11e9468efede" archimateRelationship="ace02349-80d6-4121-b408-2faa30455874"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7e45a88b-ed5c-4360-b8e6-06ce8a822a4b" source="ea6fe8ca-4af9-467b-80f6-990017cd678c" target="dfe22f52-7a2c-45e2-a863-04f5aae734c9" archimateRelationship="835a595c-aa0b-40b0-96ea-3356cb8d5a05"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="db1794d7-fd0e-4768-ba3d-1a86cee9d15a" targetConnections="fb39ed24-d854-46a4-b459-d4097db34c7b" archimateElement="2d072cf6-101b-4a0c-aef8-5f0b53919445">
+        <bounds x="-552" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1e0de966-b814-4d93-aa05-4d82d4032abd" targetConnections="958fcce4-39ca-432a-88c8-4cfc5d29ef7c" archimateElement="47e41dc0-492d-4a57-a82d-3fbf1e7af2c9">
+        <bounds x="-408" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="dfe22f52-7a2c-45e2-a863-04f5aae734c9" targetConnections="7e45a88b-ed5c-4360-b8e6-06ce8a822a4b" archimateElement="357a6df8-5cfd-4b09-b4ea-1070214d3aa6">
+        <bounds x="-216" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="192b77d3-621a-40ea-bc02-11e9468efede" targetConnections="9a6e3ab6-2be3-4c24-9ae3-310f9ef3e421" archimateElement="c17329d8-2bbf-4f52-9bbf-cdc8cad6bf90">
+        <bounds x="-84" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="da2b43dd-46c8-4e62-94f6-f3e0141e61f9" targetConnections="ca612e93-da29-483a-8c18-336f12fbd9ee" archimateElement="ee26afda-d964-4672-849d-a9e70a01f6e2">
+        <bounds x="180" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fe313a0a-8c6f-4093-8aa6-c792251dd858" targetConnections="ef714cdf-c845-4247-97bf-d685741d44fa" archimateElement="b83f21d1-e783-4b04-8908-beb9399216f4">
+        <bounds x="312" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d6f2943e-a60d-41ca-b263-fdfcea9fb749" targetConnections="b5e7354f-b8d7-4875-85f2-84c9ae28f89a" archimateElement="63f6707d-9cd7-4469-bfa4-be86435ab3c6">
+        <bounds x="48" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="51e6eb2c-c04d-47b6-8dfe-686b822d80fb" targetConnections="c9b492f3-ba6a-45a4-90fb-f83df5d1ca3b" archimateElement="7ba5c269-c857-45d8-b98a-072f9d1b2043">
+        <bounds x="-552" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4e511e4f-38a7-41b1-97ac-c9322941f0d9" targetConnections="e0260542-817a-436d-935a-6818f87b67f2" archimateElement="c34e13e1-eac1-4fa7-8fa6-ab75c7288740">
+        <bounds x="-420" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="706211e4-0256-428a-84a2-55efcedd80da" targetConnections="f9822ac8-ce92-4bb4-825f-04a1a1d28b54" archimateElement="4354c8e3-2760-4c0e-aa7e-384170ee9f8e">
+        <bounds x="-289" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="515ef75f-aefa-42a3-a3ad-254f35a3bbc0" targetConnections="5f92ee97-7641-482b-9456-634f8e9af7f3" archimateElement="8c61ef59-3438-4433-9089-0caf0139d35e">
+        <bounds x="240" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="54c846a0-d2bc-4ab3-b8b2-e8590db7d626" targetConnections="04a51fb8-a265-48ed-be48-7e26b739a91e" archimateElement="06306f93-6531-477b-b0f9-317e71bd6064">
+        <bounds x="-156" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="22772bde-4008-4098-83e2-98a52238b7dd" targetConnections="b6627f82-66c6-4f59-b002-2290e35a8f88" archimateElement="0d1a3ce7-84a5-450b-8e22-78547853e4ec">
+        <bounds x="108" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="45cbcee4-4088-4319-80b4-ce5dd98dd61b" targetConnections="b648ae2e-c35b-4e6e-82d7-758cfa74583d" archimateElement="e2455d66-cac5-4d14-9939-9a3a61e8f9ae">
+        <bounds x="-24" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0cf60a38-ae9e-418b-8cda-9a182d7cbb63" targetConnections="810ccc07-3c94-46a7-8b4d-969b013ae9a7 15798a11-242a-40d0-94c9-7d7b0f1138e9 5b1b4441-636d-4b9f-9b3a-de41df13a287 43ebd2cd-020f-4e13-af09-8ffdd8e0a148 6a5436e0-f5f2-48a4-8d65-28ec8950eaa7 231a60b0-5172-47e9-83d5-d8382138e300 99660b11-b126-4d73-9e35-20e8d11ef5b7 c24f4ee0-f396-4600-9a6b-57b3242f946f" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="d41591b2-1529-4a53-803b-b295379b8e98">
+        <bounds x="-744" y="648" width="1405" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="744ca4aa-eee1-4091-80bf-8cc1f6d03203" source="0cf60a38-ae9e-418b-8cda-9a182d7cbb63" target="170619d7-7294-4163-bd61-d13a167044cb" archimateRelationship="23e55d52-80a8-4089-951f-312378097ada"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="170619d7-7294-4163-bd61-d13a167044cb" targetConnections="744ca4aa-eee1-4091-80bf-8cc1f6d03203" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="3d582c53-09f6-4872-9857-3225c82c4c41">
+        <bounds x="-744" y="768" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="facf4f7d-2237-422d-80d4-e71337309006" font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" archimateElement="e115ec24-cd78-485b-b132-110517e23c04">
+        <bounds x="396" y="276" width="960" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7733de0a-787b-4511-be9e-39b952346f17" source="facf4f7d-2237-422d-80d4-e71337309006" target="1fe7e62c-10f6-4bcf-a722-4c0c1a216099" archimateRelationship="3b2b75c4-097f-424a-a6b9-5d5df3b5c978"/>
+        <sourceConnection xsi:type="archimate:Connection" id="972deb20-06be-4ea4-8c4a-8706e21df7ca" source="facf4f7d-2237-422d-80d4-e71337309006" target="ba4ca3f8-7228-4d7b-b8a0-b8bc5b883368" archimateRelationship="e36acfab-518b-4037-8c35-7ffa778dd4f6"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4ac37ec4-0741-4442-8ff4-c2dc51e8a3e4" source="facf4f7d-2237-422d-80d4-e71337309006" target="d0319db1-2ce8-484c-9dfb-483a8aedd8b6" archimateRelationship="c9f8270d-6131-4d77-95d4-2055c6b006ec"/>
+        <sourceConnection xsi:type="archimate:Connection" id="888c33c5-c548-4f47-9667-33f5c537e23d" source="facf4f7d-2237-422d-80d4-e71337309006" target="cd4f4828-0c7a-49e1-8de2-38085837c0ba" archimateRelationship="9b5d4901-7436-45f4-99b2-080303c0089a"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7413d80f-6ee2-428d-b90a-7b2dcb3164de" source="facf4f7d-2237-422d-80d4-e71337309006" target="350589c0-4128-40d3-bd55-6d291184b8a9" archimateRelationship="dfd30cdc-cb90-45d8-afc7-b96c72f51f5e"/>
+        <sourceConnection xsi:type="archimate:Connection" id="375e5af6-19d9-4ca4-85ce-1a53fd732acf" source="facf4f7d-2237-422d-80d4-e71337309006" target="e3999ace-52c3-48c7-93a0-acc3682663f4" archimateRelationship="f4b7f241-4aa4-4cc0-9552-dfc44cbda192"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6994a239-ee4a-4218-a7bd-e575dcc62fe5" source="facf4f7d-2237-422d-80d4-e71337309006" target="5b0d4f64-116f-4acb-af68-2536d13657b2" archimateRelationship="7f6059fd-5a4e-409b-b62c-f5e6f5dfc912"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1fe7e62c-10f6-4bcf-a722-4c0c1a216099" targetConnections="7733de0a-787b-4511-be9e-39b952346f17" archimateElement="3cbd22af-94b5-4e2a-8278-d86d42979131">
+        <bounds x="396" y="384" width="167" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="5b0d4f64-116f-4acb-af68-2536d13657b2" targetConnections="6994a239-ee4a-4218-a7bd-e575dcc62fe5" archimateElement="ca569631-cf03-4bee-9092-07bb1f3c6a25">
+        <bounds x="1236" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="e3999ace-52c3-48c7-93a0-acc3682663f4" targetConnections="375e5af6-19d9-4ca4-85ce-1a53fd732acf" archimateElement="cba7876b-4ae6-4e1f-9d51-0200339e4135">
+        <bounds x="1104" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="cd4f4828-0c7a-49e1-8de2-38085837c0ba" targetConnections="888c33c5-c548-4f47-9667-33f5c537e23d" archimateElement="e48ad731-b13d-4fe6-b032-5444c933066b">
+        <bounds x="840" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ba4ca3f8-7228-4d7b-b8a0-b8bc5b883368" targetConnections="972deb20-06be-4ea4-8c4a-8706e21df7ca" archimateElement="2a66ea13-7017-4919-88f4-7a732503a9e9">
+        <bounds x="576" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="350589c0-4128-40d3-bd55-6d291184b8a9" targetConnections="7413d80f-6ee2-428d-b90a-7b2dcb3164de" archimateElement="0600d321-2099-4d88-a658-e8e362d63b34">
+        <bounds x="972" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d0319db1-2ce8-484c-9dfb-483a8aedd8b6" targetConnections="4ac37ec4-0741-4442-8ff4-c2dc51e8a3e4" archimateElement="e83546e3-f22b-41ef-8e5d-1b5fff08a9ba">
+        <bounds x="709" y="384" width="120" height="55"/>
+      </child>
+      <documentation>Import and update of these roles should be performed through a scripted XML import</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Appendix A.1" id="cd753ab1-c2ea-4352-ba31-ac7db8f3a9f7">
+      <child xsi:type="archimate:DiagramObject" id="fa78fcaa-81dd-4e6e-a518-75a377774f2b" archimateElement="82e6d525-517a-4cde-af57-25f23a1edba7">
+        <bounds x="216" y="192" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="14b14577-abc9-4945-9c1c-f9a3bf28dbe2" archimateElement="75b12469-f548-4c28-b16a-8ebd27d81202">
+        <bounds x="216" y="336" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4819c187-1188-4667-8da1-881c206d3441" archimateElement="cbe97ce4-b548-4f86-a390-5669e840eb53">
+        <bounds x="360" y="336" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="5de9fc4e-0d0a-4819-945a-d4376a1f2a5a" archimateElement="b4c91a18-d7fa-45f0-8060-b1fd9a572f96">
+        <bounds x="360" y="192" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="1.3 Document Set" id="59b9a6b3-9ea9-4970-8ead-25b7dd97e84c">
+      <child xsi:type="archimate:DiagramObject" id="d4891887-5ee8-42d3-83fc-265b2b85a4ac" targetConnections="4e577c8b-864e-4b34-863b-dbd8c0feff4f" archimateElement="3c62a741-16ad-4879-91ef-08ef451786e0">
+        <bounds x="228" y="184" width="661" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="3155cd4e-ff76-4f3b-810c-c7ef2e68338c" source="d4891887-5ee8-42d3-83fc-265b2b85a4ac" target="1d2530e2-9661-4401-9c49-c8813d3af5b2" archimateRelationship="6b7fa2cb-e51e-4187-b2bb-362c32bc36ca"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b6771dbb-a1e0-4b87-aca0-25eb2854d525" source="d4891887-5ee8-42d3-83fc-265b2b85a4ac" target="3ebde76a-de60-4b34-9eba-30d88d1afb0b" archimateRelationship="8dd360ee-0ea7-4989-990e-bf825bc39689"/>
+        <sourceConnection xsi:type="archimate:Connection" id="465c2645-fa3d-4ab2-a1bd-fc88d8b9d504" source="d4891887-5ee8-42d3-83fc-265b2b85a4ac" target="99c6647a-8c58-484b-8a45-187fb6f40983" archimateRelationship="4c977890-a78f-4462-898b-c9710f7c4c92"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1d2530e2-9661-4401-9c49-c8813d3af5b2" targetConnections="3155cd4e-ff76-4f3b-810c-c7ef2e68338c" archimateElement="4e3ba309-7d46-4197-b0fc-7d8cbdf0e1e6">
+        <bounds x="168" y="342" width="216" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0e68e3e8-ece3-4226-9419-97b683766f95" textAlignment="1" archimateElement="8dc6c4c7-bbe4-41b1-97eb-b8f74428f7c0">
+        <bounds x="444" y="288" width="277" height="140"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7c301df3-cd82-4938-9266-23bb6dcb771c" source="0e68e3e8-ece3-4226-9419-97b683766f95" target="3ebde76a-de60-4b34-9eba-30d88d1afb0b" archimateRelationship="e32a608e-32c7-4323-adb9-8ee709be28d1"/>
+        <child xsi:type="archimate:DiagramObject" id="3ebde76a-de60-4b34-9eba-30d88d1afb0b" targetConnections="7c301df3-cd82-4938-9266-23bb6dcb771c b6771dbb-a1e0-4b87-aca0-25eb2854d525" archimateElement="c88e6e6f-cce4-4050-9853-724c19145283">
+          <bounds x="48" y="48" width="192" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="99c6647a-8c58-484b-8a45-187fb6f40983" targetConnections="465c2645-fa3d-4ab2-a1bd-fc88d8b9d504" archimateElement="946e9db5-675a-4439-9947-015a0ad81afa">
+        <bounds x="780" y="342" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c37af08a-061d-4b68-b88a-a9b45ef7dac0" archimateElement="b04e1866-4a0a-420f-a903-70adc6f5fcb6">
+        <bounds x="514" y="48" width="137" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4e577c8b-864e-4b34-863b-dbd8c0feff4f" source="c37af08a-061d-4b68-b88a-a9b45ef7dac0" target="d4891887-5ee8-42d3-83fc-265b2b85a4ac" archimateRelationship="b69ec250-17dc-46d4-930e-c4ffe661757e"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="3 Key concepts and elements" id="8f71de34-31bf-47e1-b739-37b609f791c1">
+      <child xsi:type="archimate:DiagramObject" id="15a3a167-ba65-4597-b7a5-6f36043f9ace" targetConnections="b788b6f6-bdbd-4351-81d8-9cdea8458700 a60c8539-43e3-4453-8887-3c5566a14154" archimateElement="ea45d151-c67a-4ad7-9454-ac57b057f583">
+        <bounds x="288" y="60" width="877" height="349"/>
+        <sourceConnection xsi:type="archimate:Connection" id="171e4dcc-f1a9-4322-8315-e08920fd631c" targetConnections="3c612aba-3efb-4b6e-b546-9a08c759d8a8 3d646172-98c7-43c4-808e-a1941d91c80a" textPosition="0" source="15a3a167-ba65-4597-b7a5-6f36043f9ace" target="eff57fb8-ec55-440a-a129-5e80b0bd43bc" archimateRelationship="86f2e2c5-6c74-4335-b97b-512b2f1a54b3">
+          <bendpoint startX="-384" startY="-102" endX="-36" endY="-315"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="9e9df23e-9f8d-40d9-a115-2b0b6ec72b3b" source="15a3a167-ba65-4597-b7a5-6f36043f9ace" target="2fc852ba-d271-469a-bb36-42fbb47918f2" archimateRelationship="b9943570-b8dc-4147-9229-61aaf4924ffa"/>
+        <sourceConnection xsi:type="archimate:Connection" id="787241f9-c785-444a-bfa5-97772fb8613f" source="15a3a167-ba65-4597-b7a5-6f36043f9ace" target="8068e853-01d9-4d0a-91a8-c9c88851daa5" archimateRelationship="95c26968-ecc5-45cf-94e7-321accc7c149"/>
+        <sourceConnection xsi:type="archimate:Connection" id="1658abdc-0e05-464f-988c-dc07f64956d5" source="15a3a167-ba65-4597-b7a5-6f36043f9ace" target="485f6267-7810-4554-a88f-e4f12b05185b" archimateRelationship="13ee87c8-dd72-4758-b288-bd5488610b1a"/>
+        <child xsi:type="archimate:DiagramObject" id="2fc852ba-d271-469a-bb36-42fbb47918f2" targetConnections="9e9df23e-9f8d-40d9-a115-2b0b6ec72b3b 9ed4f3b7-b923-4b5f-b880-024b9d4acc38 42455d66-9bcb-4579-9353-02e751f753f7 05a2b0df-a45f-40e6-a5f1-ea6ebf70370c" archimateElement="1c1961e0-0a5a-4ff2-99fb-3d7532eb4c84">
+          <bounds x="192" y="210" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="3d646172-98c7-43c4-808e-a1941d91c80a" source="2fc852ba-d271-469a-bb36-42fbb47918f2" target="171e4dcc-f1a9-4322-8315-e08920fd631c" archimateRelationship="0e3045e5-b0f0-469a-8651-0ceaf75928bc">
+            <bendpoint startX="-244" startY="-3" endX="25" endY="60"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="8068e853-01d9-4d0a-91a8-c9c88851daa5" targetConnections="180d8085-b541-4d9c-bdd5-bca888b7200a d44e4fc1-d14f-46a5-8e68-6e0c5a0ce9ca 787241f9-c785-444a-bfa5-97772fb8613f ac090b1a-a8ba-46da-9632-11ec39b6b09d" archimateElement="8870f374-71e7-47c2-aab5-f3a0e39209cd">
+          <bounds x="48" y="60" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="3c612aba-3efb-4b6e-b546-9a08c759d8a8" source="8068e853-01d9-4d0a-91a8-c9c88851daa5" target="171e4dcc-f1a9-4322-8315-e08920fd631c" archimateRelationship="5cba94f7-87c6-4b08-a232-5ce6fb738248">
+            <bendpoint startX="-160" startY="9" endX="23" endY="-90"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="9a2b889b-f14e-4bd8-a113-b5b1e0bbce5d" source="8068e853-01d9-4d0a-91a8-c9c88851daa5" target="485f6267-7810-4554-a88f-e4f12b05185b" archimateRelationship="62cdca0a-58d5-4fe9-b419-915e6ea9d05b"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="67048b2c-a96c-444b-bae9-448a2a360a9b" archimateElement="b4370adc-9b76-4110-8676-ccede12073ce">
+          <bounds x="48" y="156" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="d44e4fc1-d14f-46a5-8e68-6e0c5a0ce9ca" source="67048b2c-a96c-444b-bae9-448a2a360a9b" target="8068e853-01d9-4d0a-91a8-c9c88851daa5" archimateRelationship="04dcd65d-091b-4690-bbd8-802502251af4"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="40fface9-f496-4757-887f-2158ebc4829c" archimateElement="23d2855e-db0e-4141-b38f-f0bbdf7a8ef7">
+          <bounds x="336" y="282" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="9ed4f3b7-b923-4b5f-b880-024b9d4acc38" source="40fface9-f496-4757-887f-2158ebc4829c" target="2fc852ba-d271-469a-bb36-42fbb47918f2" archimateRelationship="e1699438-8fec-4caa-a1d5-3749a0471e6b"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="485f6267-7810-4554-a88f-e4f12b05185b" targetConnections="1658abdc-0e05-464f-988c-dc07f64956d5 9a2b889b-f14e-4bd8-a113-b5b1e0bbce5d 9a2ca3aa-e851-4d9e-8002-81a9a65b75bb f401971b-bdec-4200-9523-c68c1dada3a5" archimateElement="1fe7cf56-5c0d-4d3b-9296-e98e8418345c">
+          <bounds x="336" y="60" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="ca662cad-1d05-47cc-aa99-33a33501234e" source="485f6267-7810-4554-a88f-e4f12b05185b" target="e3939507-3e06-447e-b4b7-df786e3a78d1" archimateRelationship="49b41d36-fad5-4fa2-a9fd-9a6f39140a72"/>
+          <sourceConnection xsi:type="archimate:Connection" id="3b6c146a-73c3-40f6-ab6f-934537d9f9bb" source="485f6267-7810-4554-a88f-e4f12b05185b" target="2b967bf2-3295-45c5-baf0-ebe532df3f9b" archimateRelationship="23c84323-b620-430b-b512-19fc0fd2ef6e"/>
+          <sourceConnection xsi:type="archimate:Connection" id="83a37fbb-848e-4643-b3b7-cace2734e8aa" source="485f6267-7810-4554-a88f-e4f12b05185b" target="3d9a1a38-c82a-453c-be29-7ceebc0c0888" archimateRelationship="ef3acebe-fc27-45bc-bb5d-d744e3549560">
+            <bendpoint startX="-24" startY="273" endX="552" endY="-219"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="e3939507-3e06-447e-b4b7-df786e3a78d1" targetConnections="ca662cad-1d05-47cc-aa99-33a33501234e" archimateElement="c3f5118b-5c11-48ea-86b7-35b969ca2e3e">
+          <bounds x="504" y="60" width="120" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="2b967bf2-3295-45c5-baf0-ebe532df3f9b" targetConnections="3b6c146a-73c3-40f6-ab6f-934537d9f9bb" archimateElement="fb8561f5-2825-4972-a7ff-00192d039193">
+          <bounds x="504" y="144" width="120" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="b5a6f909-6a9d-4b9d-a29c-3974c6c53df7" archimateElement="4fa1d494-6fbf-4dc4-8fbf-c00453ed8510">
+          <bounds x="480" y="224" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="9a2ca3aa-e851-4d9e-8002-81a9a65b75bb" source="b5a6f909-6a9d-4b9d-a29c-3974c6c53df7" target="485f6267-7810-4554-a88f-e4f12b05185b" archimateRelationship="e7d12984-5f84-471c-8383-cca9e53df336">
+            <bendpoint startX="-108" startY="-71" endX="36" endY="93"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="514db661-59b1-4af7-8d8e-80da01307cc4" source="b5a6f909-6a9d-4b9d-a29c-3974c6c53df7" target="76d97c5d-8298-409f-bcba-64804d50bc6c" archimateRelationship="ee55d061-00be-4597-a48f-6edc7867e484"/>
+          <sourceConnection xsi:type="archimate:Connection" id="78f38fd3-8bfe-43c4-bc98-283175f38362" source="b5a6f909-6a9d-4b9d-a29c-3974c6c53df7" target="1a26dfc3-187d-4c25-8255-1a8660fe57a3" archimateRelationship="6da38b6a-117e-485e-a441-5f4e24989f31"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="76d97c5d-8298-409f-bcba-64804d50bc6c" targetConnections="514db661-59b1-4af7-8d8e-80da01307cc4" archimateElement="f99351a3-924c-473a-a034-5884cdbd81d5">
+          <bounds x="636" y="224" width="120" height="41"/>
+          <sourceConnection xsi:type="archimate:Connection" id="112d2f8a-1391-46d6-8c49-1e5ae230c4b3" source="76d97c5d-8298-409f-bcba-64804d50bc6c" target="3d9a1a38-c82a-453c-be29-7ceebc0c0888" archimateRelationship="ce2774ab-4498-4ced-803a-2414210c1d9d">
+            <bendpoint startX="-408" startY="409" endX="468" endY="81"/>
+            <bendpoint startX="-840" startY="409" endX="36" endY="81"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="1a26dfc3-187d-4c25-8255-1a8660fe57a3" targetConnections="78f38fd3-8bfe-43c4-bc98-283175f38362" archimateElement="1459200a-7520-4156-b7fd-2613c1643999">
+          <bounds x="636" y="300" width="120" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="2a3bad16-7404-4e48-bced-55610d7692de" source="1a26dfc3-187d-4c25-8255-1a8660fe57a3" target="d30c93be-9562-4780-afd1-578ce199ac18" archimateRelationship="376bc89c-a450-4e79-90ea-d527557986b1">
+            <bendpoint startX="-396" startY="402" endX="480" endY="-3"/>
+          </sourceConnection>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="eff57fb8-ec55-440a-a129-5e80b0bd43bc" targetConnections="d809d35b-3ed0-4559-b6ee-ff9a28d5c0ea 171e4dcc-f1a9-4322-8315-e08920fd631c ddc72b05-8386-4b2b-ab0a-9f5986ca4be8 3c9728e8-ca5e-4757-8437-ef77c02091ea" archimateElement="7d4f2a4a-637b-428a-a353-5da122774fbe">
+        <bounds x="144" y="396" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a60c8539-43e3-4453-8887-3c5566a14154" textPosition="0" source="eff57fb8-ec55-440a-a129-5e80b0bd43bc" target="15a3a167-ba65-4597-b7a5-6f36043f9ace" archimateRelationship="79cb01b2-a3a9-4427-8617-a8e9aaf6bd8f">
+          <bendpoint startX="168" startY="-3" endX="-68" endY="245"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="98111cd8-c8f5-42e5-b6b5-78307049827b" source="eff57fb8-ec55-440a-a129-5e80b0bd43bc" target="3d9a1a38-c82a-453c-be29-7ceebc0c0888" archimateRelationship="3f2dfc9d-13da-483d-8c3b-6e8bdb4a6cea"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b6a94913-b238-47c7-b2ea-5001c34a3e0c" archimateElement="ed6e8c40-4430-49be-9687-10a026a0f03f">
+        <bounds x="388" y="528" width="201" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="d809d35b-3ed0-4559-b6ee-ff9a28d5c0ea" source="b6a94913-b238-47c7-b2ea-5001c34a3e0c" target="eff57fb8-ec55-440a-a129-5e80b0bd43bc" archimateRelationship="53d3118d-fafc-4e83-9e31-225e694277c1">
+          <bendpoint startX="-284" startY="-3" endY="129"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="b788b6f6-bdbd-4351-81d8-9cdea8458700" textPosition="0" source="b6a94913-b238-47c7-b2ea-5001c34a3e0c" target="15a3a167-ba65-4597-b7a5-6f36043f9ace" archimateRelationship="5ace39f9-a5d9-48cb-98db-4b5183d3466a"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="5bc5aa5c-a8e6-4abf-9184-7878076043d5" archimateElement="42c0c981-9e29-430b-bbef-917eaf679219">
+        <bounds x="336" y="-84" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="180d8085-b541-4d9c-bdd5-bca888b7200a" source="5bc5aa5c-a8e6-4abf-9184-7878076043d5" target="8068e853-01d9-4d0a-91a8-c9c88851daa5" archimateRelationship="fcadb711-786e-4e65-992e-68138814f0f4"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d365c613-171d-48d5-9253-51033f4720ce" archimateElement="0e0935e7-7d5e-4ba9-aa26-5b53f883b297">
+        <bounds x="996" y="582" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e3ef0f4a-72df-49f8-9b6a-340720405fe0" textPosition="2" source="d365c613-171d-48d5-9253-51033f4720ce" target="ee18a2f0-511f-451b-b71a-f2f86d7d5d8f" archimateRelationship="72a0d3c0-1205-45b8-8f3b-a1c0d94f9a50"/>
+        <sourceConnection xsi:type="archimate:Connection" id="67631493-e521-494f-9ab1-a81158d9aec5" textPosition="2" source="d365c613-171d-48d5-9253-51033f4720ce" target="396a69df-20a0-4861-a9da-6a357c6e9707" archimateRelationship="fd9413a9-74a0-4784-be43-b31c1f79aa14"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="e08f7d55-f855-4f2b-93f9-cc3a3a497d76" archimateElement="4c42ebf4-c49e-45fd-8268-261bb37cf875">
+        <bounds x="768" y="582" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="344fb07d-19ea-4f57-a4eb-52a2f7056185" textPosition="2" source="e08f7d55-f855-4f2b-93f9-cc3a3a497d76" target="ee18a2f0-511f-451b-b71a-f2f86d7d5d8f" archimateRelationship="d09e664d-a214-4921-a0fb-ee997965f4d0"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5c06fe8b-699c-474b-a5e3-bfdf3a3d7b45" textPosition="2" source="e08f7d55-f855-4f2b-93f9-cc3a3a497d76" target="396a69df-20a0-4861-a9da-6a357c6e9707" archimateRelationship="0726c29e-971e-4f9f-9444-b3b5ceff27e6"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="bccd7705-8125-4b76-8cbc-174ec77e2232" archimateElement="a3c29e21-9b41-4d14-908c-da81387638d7">
+        <bounds x="517" y="-84" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="42455d66-9bcb-4579-9353-02e751f753f7" source="bccd7705-8125-4b76-8cbc-174ec77e2232" target="2fc852ba-d271-469a-bb36-42fbb47918f2" archimateRelationship="65a17bb4-7f57-41ba-abf6-22a2d48d0798"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="396a69df-20a0-4861-a9da-6a357c6e9707" targetConnections="67631493-e521-494f-9ab1-a81158d9aec5 5c06fe8b-699c-474b-a5e3-bfdf3a3d7b45" archimateElement="41277429-6e43-4cfa-ae99-1ca8aea1e936">
+        <bounds x="996" y="744" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="05a2b0df-a45f-40e6-a5f1-ea6ebf70370c" source="396a69df-20a0-4861-a9da-6a357c6e9707" target="2fc852ba-d271-469a-bb36-42fbb47918f2" archimateRelationship="3e865ef5-9962-46ef-afd3-a607a9eaf9d2">
+          <bendpoint startX="12" startY="45" endX="528" endY="519"/>
+          <bendpoint startX="-516" startY="45" endY="519"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ee18a2f0-511f-451b-b71a-f2f86d7d5d8f" targetConnections="344fb07d-19ea-4f57-a4eb-52a2f7056185 e3ef0f4a-72df-49f8-9b6a-340720405fe0" archimateElement="a8a1fdbc-caa0-4221-9a47-31ca851bb54e">
+        <bounds x="780" y="744" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ac090b1a-a8ba-46da-9632-11ec39b6b09d" source="ee18a2f0-511f-451b-b71a-f2f86d7d5d8f" target="8068e853-01d9-4d0a-91a8-c9c88851daa5" archimateRelationship="13f4b43b-e38c-4f38-bf6d-74309e3d6a07">
+          <bendpoint startX="-516" startY="21" endX="-48" endY="645"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="3d9a1a38-c82a-453c-be29-7ceebc0c0888" targetConnections="98111cd8-c8f5-42e5-b6b5-78307049827b 112d2f8a-1391-46d6-8c49-1e5ae230c4b3 d36830b3-6a48-4e09-bc00-b4cd3443e5de 257f72ac-98e4-4ca4-bd26-15a98833d3aa 83a37fbb-848e-4643-b3b7-cace2734e8aa" archimateElement="a377b8b1-304f-473f-a236-7ceb55ba57b5">
+        <bounds x="48" y="612" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fe063613-3041-4511-b2aa-56d45bf3da90" archimateElement="25c55254-70d5-43bf-a7e4-379b13278332">
+        <bounds x="217" y="612" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ddc72b05-8386-4b2b-ab0a-9f5986ca4be8" source="fe063613-3041-4511-b2aa-56d45bf3da90" target="eff57fb8-ec55-440a-a129-5e80b0bd43bc" archimateRelationship="f48cbed9-8ed6-4c61-a192-3f5a8eb13d8f"/>
+        <sourceConnection xsi:type="archimate:Connection" id="257f72ac-98e4-4ca4-bd26-15a98833d3aa" source="fe063613-3041-4511-b2aa-56d45bf3da90" target="3d9a1a38-c82a-453c-be29-7ceebc0c0888" archimateRelationship="53f8967b-c9dc-4018-bd2e-a531ecf1b67e"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9439d930-6332-464c-9d7e-66eb8f208b10" targetConnections="c17768cc-47c4-430c-99f8-3fedc299b58e" archimateElement="6b6a26c8-0d7e-4cba-82cb-1ae2b5392ef1">
+        <bounds x="720" y="-84" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="f401971b-bdec-4200-9523-c68c1dada3a5" source="9439d930-6332-464c-9d7e-66eb8f208b10" target="485f6267-7810-4554-a88f-e4f12b05185b" archimateRelationship="ffdeefa0-439a-4a52-b352-37d43dcc3e10"/>
+        <sourceConnection xsi:type="archimate:Connection" id="3c9728e8-ca5e-4757-8437-ef77c02091ea" source="9439d930-6332-464c-9d7e-66eb8f208b10" target="eff57fb8-ec55-440a-a129-5e80b0bd43bc" archimateRelationship="3527366f-3aec-4665-bb7a-3e7b2b7027db">
+          <bendpoint startY="-63" endX="576" endY="-543"/>
+          <bendpoint startX="-588" startY="-63" endX="-12" endY="-543"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b95de6e4-19e7-44e9-8709-d8f70c7a3523" archimateElement="b83f21d1-e783-4b04-8908-beb9399216f4">
+        <bounds x="899" y="-84" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c17768cc-47c4-430c-99f8-3fedc299b58e" source="b95de6e4-19e7-44e9-8709-d8f70c7a3523" target="9439d930-6332-464c-9d7e-66eb8f208b10" archimateRelationship="36c089ba-5e09-47cb-b10b-ad25cc834779"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d30c93be-9562-4780-afd1-578ce199ac18" targetConnections="90b44a4c-b71d-4b18-8115-725af4cf6ebb 32ea33ef-25e8-40ab-9162-64be31e5e508 ccb34976-d7ea-400e-a91c-bed92bbceb9f 2a3bad16-7404-4e48-bced-55610d7692de" archimateElement="ff3a1e4a-93fe-4846-98eb-9be6afb7336f">
+        <bounds x="48" y="756" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="d36830b3-6a48-4e09-bc00-b4cd3443e5de" source="d30c93be-9562-4780-afd1-578ce199ac18" target="3d9a1a38-c82a-453c-be29-7ceebc0c0888" archimateRelationship="55a4c45b-6cca-4501-900f-028a3bb74c3f"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="34ad489a-cdba-4665-9974-891ead761883" archimateElement="9f077884-acbe-4e6a-aa8a-0b7513d2aeca">
+        <bounds x="-204" y="690" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="90b44a4c-b71d-4b18-8115-725af4cf6ebb" source="34ad489a-cdba-4665-9974-891ead761883" target="d30c93be-9562-4780-afd1-578ce199ac18" archimateRelationship="8b7e8456-61cc-4b22-8f27-6da5457f46ce"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d7749dd3-4547-45c4-866f-6a812cd94048" archimateElement="d21a38ea-7bc7-456d-832a-f84640e0743a">
+        <bounds x="-204" y="792" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="32ea33ef-25e8-40ab-9162-64be31e5e508" source="d7749dd3-4547-45c4-866f-6a812cd94048" target="d30c93be-9562-4780-afd1-578ce199ac18" archimateRelationship="a3727b74-813b-4e6e-80f9-ccb2c5a23961"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c61df95c-ead3-461c-b630-eba5a676ae58" archimateElement="7b572521-cd4f-44ec-ba38-477e9c83334c">
+        <bounds x="-216" y="876" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ccb34976-d7ea-400e-a91c-bed92bbceb9f" source="c61df95c-ead3-461c-b630-eba5a676ae58" target="d30c93be-9562-4780-afd1-578ce199ac18" archimateRelationship="d9125290-5f95-4a8c-b100-040cdbf2d4c1"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="3.3 Users and roles" id="6374f1c0-d4f5-447f-bc7d-ade2d03208fb"/>
+  </folder>
+</archimate:model>
